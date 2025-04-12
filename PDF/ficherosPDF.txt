@@ -1,1 +1,1 @@
-En esta carpeta vamos a meter los ficheros.pdf para sacar correctamente los datos del downloaded_metadata.json
+En esta carpeta vamos a meter los ficheros.pdf para sacar correctamente "file_name" y "file_path" en el fichero downloaded_metadata.json
