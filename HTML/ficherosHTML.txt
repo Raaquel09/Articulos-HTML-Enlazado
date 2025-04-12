@@ -1,0 +1,1 @@
+En esta carpeta vamos a meter los ficheros.html para sacar correctamente el enlace de la ruta relativa del html de prueba
