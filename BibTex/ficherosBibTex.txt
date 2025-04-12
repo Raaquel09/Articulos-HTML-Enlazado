@@ -1,1 +1,1 @@
-
+En esta carpeta vamos a meter los ficheros.bib para sacar correctamente los datos del downloaded_metadata.json
