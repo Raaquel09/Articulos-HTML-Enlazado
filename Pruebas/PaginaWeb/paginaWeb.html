@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Papers</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            padding: 1em;
+            margin: 1em 0;
+            border-radius: 8px;
+            background: #f0f0f0;
+        }
+        .meta, .links, .abstract {
+            margin-top: 0.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mis Papers</h1>
+
+    <!-- Aquí se insertarán los papers -->
+    <div id="papers-container"></div>
+
+    <script>
+        // Función para renderizar los datos de un paper como una tarjeta
+        function renderPaper(paper) {
+            const container = document.getElementById('papers-container');
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            // Crear los enlaces si están disponibles
+            const links = [];
+            if (paper.pdf_link) links.push(`<a href="${paper.pdf_link}" target="_blank">PDF</a>`);
+            if (paper.implementation_urls) {
+                paper.implementation_urls.forEach(imp => {
+                    const label = imp.type === 'git' ? 'GitHub' : 'Zenodo';
+                    links.push(`<a href="${imp.identifier}" target="_blank">${label}</a>`);
+                });
+            }
+
+            // Si hay un campo file_html, agregar un enlace a ese archivo HTML
+            if (paper.file_html) {
+                links.push(`<a href="${paper.file_html}" target="_blank">HTML</a>`);
+            }
+
+            // Insertar el contenido en la tarjeta
+            card.innerHTML = `
+                <h3>${paper.title}</h3>
+                <div class="meta">${paper.authors} — ${new Date(paper.publication_date).getFullYear()}</div>
+                <div class="links">${links.join(' ')}</div>
+                <div class="abstract">${paper.abstract ?? ''}</div>
+            `;
+
+            // Añadir la tarjeta al contenedor
+            container.appendChild(card);
+        }
+
+        // Espera a que el DOM esté listo
+        window.onload = function () {
+            fetch('lista.json')
+                .then(res => res.json())
+                .then(files => {
+                    // Cargar cada archivo listado en index.json
+                    files.forEach(file => {
+                        fetch(file) // Cargar cada archivo JSON
+                            .then(res => res.json())
+                            .then(papers => {
+                                // Renderizar cada "paper" del archivo JSON
+                                papers.forEach(renderPaper);
+                            })
+                            .catch(err => console.error(`Error cargando ${file}:`, err));
+                    });
+                })
+                .catch(err => console.error('Error cargando index.json:', err));
+        };
+    </script>
+
+</body>
+</html>
