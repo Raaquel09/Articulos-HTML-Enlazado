@@ -1,0 +1,12 @@
+[
+    {
+        "arxiv": null,
+        "authors": "Aleksandar Stankovski, Daniel Garijo",
+        "doi": "10.1007/978-3-031-65794-8_7",
+        "file_name": "20250510124049.pdf",
+        "file_path": "../Pruebas/SalidaRSEF/stankovsi_2024/PDFs/20250510124049.pdf",
+        "pdf_link": "https://dgarijo.com/papers/stankovsi_2024.pdf",
+        "publication_date": "2024-01-01",
+        "title": "RepoFromPaper: An Approach to Extract Software Code Implementations from Scientific Publications"
+    }
+]

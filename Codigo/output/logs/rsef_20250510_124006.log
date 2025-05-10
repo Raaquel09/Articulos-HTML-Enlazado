@@ -1,0 +1,7 @@
+2025-05-10 12:40:07,829:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-10 12:40:07,843:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF/journal.pone/processed_metadata.json
+2025-05-10 12:40:07,847:INFO:Successfully opened JSON
+2025-05-10 12:40:07,848:INFO:Analyzing directionality for 10.1371/journal.pone.0309210
+2025-05-10 12:40:07,848:INFO:No implementation URLs present in the paper object!
+2025-05-10 12:40:07,854:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF/journal.pone/url_search_output.json
+2025-05-10 12:40:07,862:INFO:Output saved to: ../Pruebas/SalidaRSEF/journal.pone/url_search_output.json

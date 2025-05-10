@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<!-- Lenguaje en español -->
+<html lang="es">
+<!-- Cabecera -->
+<head>
+  <!-- Codificación UTF-8 -->
+  <meta charset="UTF-8">
+  <!-- Visible para teléfonos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título que parece en el navegador -->
+  <title>MI PAGINA WEB</title>
+  <!-- Librería para usar las cajas y botones desplegables -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Librería para poner los iconos (pdf, gitHub) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <!-- Cuerpo, barra lateral, cajas para la publicaciones, contenido... -->
+  <style>
+    /* Estilo general del cuerpo */
+    body {
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    /*
+    Estilo de la barra lateral: 
+    - Se queda fija en el lateral izquierdo
+    - Le pones el ancho y alto es la página completa
+    - Puedes elegir el color que quieres que tenga
+    - Le ponemos sombra para que se note el corte de la barra
+    - Tiene prioridad frente al resto de elementos de la página web
+    */
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 250px;
+      height: 100%;
+      background-color: #f8f9fa;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    /* 
+    Imagen de la barra lateral:
+    - Tiene el ancho completo que le permite su contenedor
+    - Aunque como máximo pueden ser 150 px
+    - Forzamos a que sea un círculo redondeando las esquinas un 50%
+    */
+    .sidebar img {
+      width: 100%;
+      max-width: 150px;
+      border-radius: 50%;
+    }
+
+    /* Estilo de los títulos y contenido de la barra lateral */
+    .sidebar h4 {
+      margin-top: 20px;
+      font-size: 1.25rem;
+    }
+    .sidebar p {
+      font-size: 1rem;
+      color: #6c757d;
+    }
+
+    /* 
+    Enlaces dentro de la barra lateral:
+    - Ocupan todo el ancho para que el botón se más accesible
+    - Color del texto del enlace
+    - Quita el subrayado de los enlaces
+    - Pone la intensidad del color de la fuente   
+    */
+    .sidebar a {
+      display: block;
+      padding: 10px 0;
+      color: #D65AE0;
+      text-decoration: none;
+      font-weight: 500;
+    } 
+
+    /* 
+    Estilos de los enlaces cuando poner el cursor sobre ellos:
+    - Cambia de color para saber cual estamos selaccionando    
+    */
+    .sidebar a:hover {
+      background-color: #E1E0DB;
+      color: #D65AE0;
+    }
+
+    /* 
+    Enlace a los iconos de la barra lateral:
+    - Display nos permite que los iconos esten en horizontal
+    - 30px de separación entre los iconos para que ocupen la barra entera
+    - 2 del tamaño de la fuente para que se vean más grandes
+    */
+    .sidebar .social a {
+      display: inline-block;
+      margin-right: 30px;
+      color: #800080;
+      font-size: 2rem;
+    }
+    /* Estilo del contenido */
+    .content {
+      margin-left: 270px;
+      padding: 20px;
+      flex: 1;
+    }
+    /* Estilo de las cajas grandes */
+    .card {
+      border: 1px solid #ccc;
+      padding: 1em;
+      margin: 1em 0;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+
+    /* Estilo del título de la caja */
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    /* Estilo del subtítulo de la caja */
+    .card-subtitle {
+      color: #6c757d;
+      font-size: 1rem;
+    }
+
+    /* Estilo del texto de la caja */
+    .card-text {
+      font-size: 1rem;
+      margin-bottom: 1em;
+    }
+
+    /* Estilo del título primary, de los enlaces, abstracts, contenido oculto */
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+    .meta, .links, .abstract {
+      margin-top: 0.5em;
+    }
+    .hidden-content {
+      display: none;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<!-- Cuerpo de la página web -->
+<body>
+  <!-- Contenido de la barra lateral -->
+  <div class="sidebar">
+    <img src="FALTA POR RELLENAR" alt="FOTO">
+    <h4>FALTA POR RELLENAR</h4>
+    <p>FALTA POR RELLENAR</p>
+    <hr>
+    <!-- Enlaces a los apartados -->
+    <a href="#about1">APARTADO 1</a>
+    <a href="#about2">APARTADO 2</a>
+    <a href="#publications">Publicaciones</a>
+    <hr>
+    <div class="social">
+      <a href="FALTA POR RELLENAR"><i class="fab fa-github"></i></a>
+      <a href="FALTA POR RELLENAR"><i class="fab fa-linkedin"></i></a>
+      <!-- <a href="FALTA POR RELLENAR"><i class="fab fa-times"></i></a>
+      <a href="FALTA POR RELLENAR"><i class="fab fa-google"></i></a> -->
+    </div>
+  </div>
+
+  <!-- Contenido general de la página web -->
+  <div class="content">
+    <h1>MI PAGINA WEB</h1>
+    <br>
+    <!-- Cada sección es un apartado que está unido al título correspondiente en la barra lateral -->
+    <section id="about1">
+      <h2>APARTADO 1</h2>
+      <p>FALTA POR RELLENAR</p>
+      <h4 class="mt-4">RELLENO</h4>
+      <ul>
+        <li><strong>FALTA POR RELLENAR</strong> — FALTA POR RELLENAR</li>
+        <li><strong>FALTA POR RELLENAR</strong> — FALTA POR RELLENAR</li>
+        <li><strong>FALTA POR RELLENAR</strong> — FALTA POR RELLENAR</li>
+      </ul>
+    </section>
+
+    <section id="about2">
+      <h2>APARTADO 2</h2>
+      <p>FALTA POR RELLENAR</p>
+      <h4 class="mt-4">RELLENO</h4>
+      <ul>
+        <li><strong>FALTA POR RELLENAR</strong> — FALTA POR RELLENAR</li>
+        <li><strong>FALTA POR RELLENAR</strong> — FALTA POR RELLENAR</li>
+        <li><strong>FALTA POR RELLENAR</strong> — FALTA POR RELLENAR</li>
+      </ul>
+    </section>
+
+    <section id="publications" class="mt-5">
+      <h2>Publicaciones</h2>
+      <div id="papers" class="row">
+        <!-- Habrá una caja correspondiente al json de cada paper -->
+      </div>
+    </section>
+  </div>
+
+<script>
+  /* Botón despeglable del abstract */
+  function toggleAbstract(id) {
+    const content = document.getElementById(`content-${id}`);
+    content.style.display = (content.style.display === 'none' || content.style.display === '') ? 'block' : 'none';
+  }
+
+  /* Autor con tildes */
+  function formatAuthor(authorField) {
+    if (!authorField) return '';
+
+    // Reemplazar las secuencias de escape en caracteres
+    const decodeEscapedChars = (str) => {
+      /* Hay tildes que se encuentran entre llaves y las tendriamos que quitar */
+      str = str.replace(/{/g, '').replace(/}/g, '');
+
+      /* Cambiar una letra que tiene la tilde con la barra para escarla por una letra con la tilde directamente. Tanto en letras mayúsculas como minúsculas */
+      return str.replace(/\\'a/g, 'á')
+                .replace(/\\'e/g, 'é')
+                .replace(/\\'i/g, 'í')
+                .replace(/\\'o/g, 'ó')
+                .replace(/\\'u/g, 'ú')
+                .replace(/\\'A/g, 'Á')
+                .replace(/\\'E/g, 'É')
+                .replace(/\\'I/g, 'Í')
+                .replace(/\\'O/g, 'Ó')
+                .replace(/\\'U/g, 'Ú');
+    }
+
+    /* Decodificar el campo author */
+    authorField = decodeEscapedChars(authorField);
+
+    /* Si en el campo author existe el valor "and" se debe a que hay más de uno autor */
+    const authorsArray = authorField.split(/\s+and\s+/);
+
+    /* Cambiamos el orden el apellido y el nombre para que se pueda leer correctamente en la página web */
+    const formattedAuthors = authorsArray.map(author => {
+      const parts = author.split(',');
+      if (parts.length === 2) {
+        const [apellido, nombre] = parts.map(s => s.trim());
+        return `${nombre} ${apellido}`;
+      }
+      return author.trim();
+    });
+
+    return formattedAuthors.join(', ');
+  }
+
+  /* Función para cargar el contenido de las cajas de los papers */
+  async function loadPapers() {
+  /* Carga la lista de los json */
+  const response = await fetch('conjuntoJSON.json');
+  const allPapers = await response.json();
+
+  const paperContainer = document.getElementById('papers');
+
+
+  /* Vamos a crear un apartado por los diferentes años de cada paper, del más moderno al más antiguo */
+  allPapers.sort((a, b) => (b.year || 0) - (a.year || 0));
+
+  let currentYear = null;
+
+  /* Cada vez que cambia el año del paper se crea un apartado */
+  allPapers.forEach((paper) => {
+    if (paper.year !== currentYear) {
+      currentYear = paper.year;
+      const yearHeader = document.createElement('h3');
+      yearHeader.className = 'mt-5';
+      yearHeader.textContent = currentYear ?? 'Sin clasificar';
+      paperContainer.appendChild(yearHeader);
+    }
+
+    /* Ajustamos el estilo */
+    const col = document.createElement('div');
+    col.className = 'col-md-12';
+
+    const card = document.createElement('div');
+    card.className = 'card shadow-sm';
+
+    const cardBody = document.createElement('div');
+    cardBody.className = 'card-body';
+
+    /* Utilizamos el ID de cada paper para recoger el abstract correstamente */
+    const id = paper.ID;
+    const links = [];
+
+    /* Si el campo URL termina en .pdf, el contenido se verá en el botón PDF con su icono correspondiente */
+    if (paper.url && paper.url.trim().toLowerCase().endsWith('.pdf')) {
+      links.push(`<a href="${paper.url}" class="btn btn-primary mt-2 me-2" target="_blank"> 
+                    <i class="fas fa-file-pdf"></i> PDF</a>`);
+    }
+
+    /* Si el .json tiene un campo file_html ponemos un enlace a este desde el botón HTML */
+    if (paper.file_html) {
+      links.push(`<a href="${paper.file_html}" class="btn btn-secondary mt-2 me-2" target="_blank">HTML</a>`);
+    }
+
+    /* Comprobamos si el campo DOI existe, en el caso de que si hacemos lo siguiente: */
+    if (paper.doi) {
+      /* Convierte el DOI a minúculas para acer las comparaciones sin error */
+      const doiLower = paper.doi.toLowerCase();
+      /* Comprueba si el DOI ya tiene el formato de URL */
+      const doiIsUrl = doiLower.startsWith('http://') || doiLower.startsWith('https://');
+
+      /* Comprobamos si el campo URL ya contiene el DOI */
+      const urlContainsDoi = paper.url && paper.url.includes(paper.doi);
+
+      /* 
+      Si el DOI ya es una URL usamos esa
+      Si no es una URL pero ya está contenido en el campo URL se utiliza esa
+      Si no está contenido en el campo URL, convertimos el DOI en URL
+      */
+
+      let doiUrl = '';
+      if (doiIsUrl || urlContainsDoi) {
+        doiUrl = doiIsUrl ? paper.doi : paper.url;
+      } else {
+        doiUrl = `https://dx.doi.org/${paper.doi}`;
+      }
+
+      /* Enlace a la URL */
+      links.push(`<a href="${doiUrl}" class="btn btn-success mt-2 me-2" target="_blank">Paper DOI</a>`);
+    }
+
+    /* Comprobamos si el json tiene contenido en el campo implementaciones */
+    if (paper.implementation_urls && paper.implementation_urls.length > 0) {
+      /* 
+      Iteramos sobre cada campo dentro de implementaciones 
+      imp => {} --> Cada elemento representa un recurso de código
+      */
+      paper.implementation_urls.forEach(imp => {
+        /* 
+        Tenemos dos opciones:
+        imp.type == 'git' --> Si es igual corresponde a GitHub y mostrará un botón llamado "Code" con el enlace y el icono
+        imp.type != 'git' --> Si es diferente mostrará un botón llamado "Code DOI" con el enlace a la página correspondiente, puede tener varios varios si el json contiene diferentes enlaces a las implementaciones, en este caso no se mostrará ningún icono
+        */
+        let label = imp.type === 'git' ? 'Code' : 'Code DOI';
+
+        if (imp.type === 'git') {
+          links.push(`<a href="${imp.identifier}" class="btn btn-success mt-2 me-2" target="_blank">
+                       <i class="fab fa-github"></i> ${label}</a>`);
+        } else {
+          links.push(`<a href="${imp.identifier}" class="btn btn-success mt-2 me-2" target="_blank">${label}</a>`);
+        }
+      });
+    }
+
+
+    /* 
+    Contenido de la caja:
+    - Título del paper
+    - Autor del paper (miramos el campo author, que es el correspondiente al .bib). 
+    - Año del paper (el campo year es el correspondiente al .bib)
+    - Desplegable del Abstract (si no lo hacemos asi las cajas quedan muy extensas)
+    - Lista de botones con sus enlaces correspondientes
+    */
+    cardBody.innerHTML = `
+      ${paper.title ? `<h5 class="card-title">${paper.title}</h5>` : ''}
+      ${paper.author ? `<h6 class="card-subtitle mb-2 text-muted">${formatAuthor(paper.author)}</h6>` : ''}
+      ${paper.year ? `<h6 class="card-subtitle mb-2 text-muted">${paper.year}</h6>` : ''}
+      <button class="btn btn-outline-dark" onclick="toggleAbstract('${id}')">Abstract</button>
+      <div id="content-${id}" class="hidden-content">
+        <p class="card-text">${paper.abstract ?? ''}</p>
+      </div>
+      <div class="links">${links.join(' ')}</div>
+    `;
+
+
+    /* Mete el contenido en cada una de cajas de cada paper */
+    card.appendChild(cardBody);
+    /* Estilos de las cajas */
+    col.appendChild(card);
+    /* Muestra dentro de publicaciones el contenido de cada tarjeta */
+    paperContainer.appendChild(col);
+  });
+}
+
+
+  /* Función para cagar los papers correspondientes */
+  loadPapers(); 
+</script>
+</body>
+</html>
