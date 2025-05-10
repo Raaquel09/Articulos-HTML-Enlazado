@@ -28,15 +28,15 @@ Necesitamos instalar lo siguiente:
 #	BibTex
 #		conjuntoBIB.bib
 # 	carpeta_raiz (SalidaRSEF)
-#   	subcarpeta1 (carpetaBIB1)
-#       	subcarpeta2 (PDFs)
-#           	nombrepdf1.pdf
-#   	subcarpeta1 (carpetaBIB2)
-#       	subcarpeta2 (PDFs)
-#           	nombrepdf2.pdf
-#   	subcarpeta1 (carpetaBIB3)
-#       	subcarpeta2 (PDFs)
-#           	nombrepdf3.pdf
+#   		subcarpeta1 (carpetaBIB1)
+#       		subcarpeta2 (PDFs)
+#           			nombrepdf1.pdf
+#   		subcarpeta1 (carpetaBIB2)
+#       		subcarpeta2 (PDFs)
+#           			nombrepdf2.pdf
+#   		subcarpeta1 (carpetaBIB3)
+#       			subcarpeta2 (PDFs)
+#           			nombrepdf3.pdf
 # 	PaginaWeb
 # 		conjuntoJSON.json
 # 		paginaWeb.html
