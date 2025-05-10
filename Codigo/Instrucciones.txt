@@ -1,6 +1,10 @@
 Entrada --> Fichero bib con la informacion de cada documento de investigacion
 Salida --> Fichero json con la informacion de cada documento de investigacion + la pagina web
 
+La pagina final del ejemplo se puede visitar en el siguiente enlace:
+
+	https://raaquel09.github.io/Papers-to-HTML/Pruebas/PaginaWeb/paginaWeb.html
+
 Necesitamos instalar lo siguiente:
 
 	Python
