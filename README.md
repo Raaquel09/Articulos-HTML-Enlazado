@@ -5,9 +5,6 @@
 
 ## Descripción
 
-Este repositorio está enlazado con Zenodo:
-https://zenodo.org/
-
 El objetivo de este proyecto es transformar la bibliografía de un investigador en una serie de páginas enlazadas para que sea mas sencillo de consultar y más accesible para aquellos que necesiten consultarlo.
 
 
