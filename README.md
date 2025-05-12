@@ -82,9 +82,9 @@ El script RESEF.py necesita dos argumentos de entrada:
  
 	python RSEF.py <archivo.bib> <carpeta_salida>
 	
-- En los ejemplos vamos a ejecutar los siguientes comandos:
+En los ejemplos vamos a ejecutar los siguientes comandos:
 
-Si lo ejecutamos desde la carpeta Codigo:
+- Si lo ejecutamos desde la carpeta Codigo:
 	
 	python RSEF.py ../Pruebas/BibTex/conjuntoBIB.bib ../Pruebas/SalidaRSEFBasica
 		
@@ -103,9 +103,9 @@ El script pdf2html.py necesita dos argumentos de entrada:
  
 	python pdf2html.py <carpeta_raiz> <carpeta_salida>
 	
-- En los ejemplos vamos a ejecutar los siguientes comandos:
+En los ejemplos vamos a ejecutar los siguientes comandos:
 
-Si lo ejecutamos desde la carpeta Codigo:
+- Si lo ejecutamos desde la carpeta Codigo:
 	
 	python pdf2html.py ../Pruebas/SalidaRSEFBasica ../Pruebas/PaginaWebBasica/html
 		
@@ -128,9 +128,9 @@ El script unir.py necesita tres argumentos de entrada:
 
 	python unir.py <ruta bib> <carpeta_raiz> <carpeta_salida>
 	
-- En los ejemplos vamos a ejecutar los siguientes comandos:
+En los ejemplos vamos a ejecutar los siguientes comandos:
 
-Si lo ejecutamos desde la carpeta Codigo:
+- Si lo ejecutamos desde la carpeta Codigo:
 
 	python unir.py ../Pruebas/BibTex/conjuntoBIB.bib ../Pruebas/SalidaRSEFBasica ../Pruebas/PaginaWebBasica
 		
@@ -151,9 +151,9 @@ El script unir.py necesita cuatro argumentos de entrada:
 
 	python main.py <archivo.bib> <carpetaSalidaRSEF> <carpetaSalidaHTMLs> <carpetaSalidaConjuntoJSON+CodigoPaginaWeb>
 
-- En los ejemplos vamos a ejecutar los siguientes comandos:
+En los ejemplos vamos a ejecutar los siguientes comandos:
 
-Si lo ejecutamos desde la carpeta Codigo:
+- Si lo ejecutamos desde la carpeta Codigo:
 	
 	python main.py ../Pruebas/BibTex/conjuntoBIB.bib ../Pruebas/SalidaRSEFBasica ../Pruebas/PaginaWebBasica/html ../Pruebas/PaginaWebBasica
 		
