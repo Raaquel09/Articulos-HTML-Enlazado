@@ -155,8 +155,7 @@ El script unir.py necesita cuatro argumentos de entrada:
 
 En los ejemplos vamos a ejecutar los siguientes comandos:
 
-- Si lo ejecutamos desde la carpeta Codigo:
-
+Si lo ejecutamos desde la carpeta Codigo:
 	
 	python main.py ../Pruebas/BibTex/conjuntoBIB.bib ../Pruebas/SalidaRSEFBasica ../Pruebas/PaginaWebBasica/html ../Pruebas/PaginaWebBasica
 		
