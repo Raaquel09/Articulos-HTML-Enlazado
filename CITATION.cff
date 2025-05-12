@@ -1,0 +1,37 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Conversión de Artículos en HTML Enlazado
+message: >-
+  The goal of this project is to transform a researcher's
+  bibliography into a series of linked pages to make it
+  easier to reference and more accessible to those who need
+  to consult it.
+type: software
+authors:
+  - family-names: Falero Domínguez
+    email: r.falero@alumnos.upm.es
+    given-names: Raquel
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15390107
+repository-code: 'https://github.com/Raaquel09/Articulos-HTML-Enlazado.git'
+abstract: >-
+  The goal of this project is to transform a researcher's
+  bibliography into a series of linked pages to make it
+  easier to reference and more accessible to those who need
+  to consult it.
+keywords:
+  - html
+  - papers
+  - json
+  - bib
+  - researcher
+  - bibliography
+  - pdf2html
+  - extraction
+license: Apache-2.0
+commit: First official version of the project.
+version: '1.0'
+date-released: '2025-06-04'
