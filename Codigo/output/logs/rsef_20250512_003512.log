@@ -1,0 +1,8 @@
+2025-05-12 00:35:12,339:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:35:12,351:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/srivastava/processed_metadata.json
+2025-05-12 00:35:12,364:INFO:Successfully opened JSON
+2025-05-12 00:35:12,364:INFO:Analyzing directionality for 10.1142/9789813279827_0019
+2025-05-12 00:35:12,364:INFO:Checking bidirectional links
+2025-05-12 00:35:20,268:INFO:Checking unidirectional links
+2025-05-12 00:35:29,797:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/srivastava/url_search_output.json
+2025-05-12 00:35:29,814:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/srivastava/url_search_output.json

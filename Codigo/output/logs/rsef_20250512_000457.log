@@ -1,0 +1,8 @@
+2025-05-12 00:04:57,289:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:04:57,299:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/mapping_owl_to_oas_2020/processed_metadata.json
+2025-05-12 00:04:57,312:INFO:Successfully opened JSON
+2025-05-12 00:04:57,312:INFO:Analyzing directionality for 10.1007/978-3-030-65847-2_11
+2025-05-12 00:04:57,313:INFO:Checking bidirectional links
+2025-05-12 00:05:18,474:INFO:Checking unidirectional links
+2025-05-12 00:05:26,492:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/mapping_owl_to_oas_2020/url_search_output.json
+2025-05-12 00:05:26,507:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/mapping_owl_to_oas_2020/url_search_output.json

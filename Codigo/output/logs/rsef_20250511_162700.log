@@ -1,0 +1,5 @@
+2025-05-11 16:27:00,749:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:27:00,758:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/iemss2018-MINT/processed_metadata.json
+2025-05-11 16:27:00,773:INFO:Successfully opened JSON
+2025-05-11 16:27:00,780:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/iemss2018-MINT/url_search_output.json
+2025-05-11 16:27:00,788:INFO:Output saved to: ../Pruebas/SalidaRSEF1/iemss2018-MINT/url_search_output.json

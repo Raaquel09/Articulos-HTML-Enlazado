@@ -1,0 +1,5 @@
+2025-05-12 00:07:08,323:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:07:08,332:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/IEMSs2018-OntoSoft/processed_metadata.json
+2025-05-12 00:07:08,346:INFO:Successfully opened JSON
+2025-05-12 00:07:08,355:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/IEMSs2018-OntoSoft/url_search_output.json
+2025-05-12 00:07:08,363:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/IEMSs2018-OntoSoft/url_search_output.json

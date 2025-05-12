@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Towards Assessing FAIR Research Software Best Practices in an Organization Using RDF-star",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/oeg-upm/oeg-software-graph",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/fair-software/howfairis",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.8034456",
+                "type": "zenodo",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": null,
+        "arxiv": null,
+        "abstract": "AbstractAn increasing number of scientists share the source code used or developed during their research(i.e., their research software) in open repositories, in order to support the results described in theirpublications. Recent best practices have been proposed by the community by aligning the Findable,Accessible, Interoperable and Reusable (FAIR) principles to Research Software. However, there arecurrently no means to assess the systematic adoption of these practices in a research organization. Inthis poster, we propose an automated pipeline to transform the software metadata of an organization asa Knowledge Graph in order to assess the current adoption of FAIR Research Software best practices.Our poster shows results from our own GitHub organization, the Ontology Engineering Group.KeywordsResearch Software, Metadata, FAIR software, FAIR, RDF-star1. IntroductionResearch Software (RS) [1] plays a crucial role in reproducing computational experiments, whereit can range from simple visualization scripts or data cleaning libraries to complex computationalpipelines that deliver the main findings described in a publication. RS has become key in manyapplication domains, ranging from Astronomy1 to Computational Biology [2]. Following theFindable, Accessible, Interoperable and Reusable (FAIR) principles for data [3] the scientificcommunity has discussed and adapted FAIR to RS [1], making available guidelines and bestpractices for researchers and RS engineers [4, 5]. Unfortunately, while there are tools forhelping developers adopt some of these practices [6], there is little work on assessing theiroverall adoption within a given organization.In this poster we propose an automated pipeline that creates a Knowledge Graph (KG) ofRS metadata to quantify the adoption of FAIR best RS practices within an organization. Ourpipeline assesses online code repositories using existing software metadata extraction tools[7, 8] and combines them with RML-star mappings [9] to quantify the adoption of an illustrativeset of best practices while tracking the provenance of each assertion.The reminder of the paper first describes the best practices we focus on in Section 2, followedby the data model and mappings used to create our KG in Section 3. We show how we quantifybest practices in Section 4, concluding the paper in Section 5.SEMANTICS 2023 EU: 19th International Conference on Semantic Systems, September 20-22, 2023, Leipzig, GermanyEnvelope-Open ana.iglesiasm@upm.es (A. Iglesias-Molina); daniel.garijo@upm.es (D. Garijo)Orcid 0000-0001-5375-8024 (A. Iglesias-Molina); 0000-0003-0454-7145 (D. Garijo)© 2023 Copyright for this paper by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0).CEURWorkshopProceedingshttp://ceur-ws.orgISSN 1613-0073 CEUR Workshop Proceedings (CEUR-WS.org)1https://www.ligo.caltech.edu/news/ligo20160211mailto:ana.iglesiasm@upm.esmailto:daniel.garijo@upm.eshttps://orcid.org/0000-0001-5375-8024https://orcid.org/0000-0003-0454-7145https://creativecommons.org/licenses/by/4.0http://ceur-ws.orghttp://ceur-ws.orghttps://www.ligo.caltech.edu/news/ligo20160211Table 1Ten key requirements to assess FAIR research software best practices of a code repository.ID Best practice FAIR Principle Source",
+        "publication_date": null,
+        "authors": "",
+        "file_name": "20250511234756.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/paper-09/PDFs/20250511234756.pdf",
+        "pdf_link": "https://ceur-ws.org/Vol-3526/paper-09.pdf"
+    }
+]

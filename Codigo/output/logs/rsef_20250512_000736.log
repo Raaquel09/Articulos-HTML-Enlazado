@@ -1,0 +1,5 @@
+2025-05-12 00:07:36,973:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:07:36,981:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/garijo_sciknow17/processed_metadata.json
+2025-05-12 00:07:36,996:INFO:Successfully opened JSON
+2025-05-12 00:07:37,002:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/garijo_sciknow17/url_search_output.json
+2025-05-12 00:07:37,010:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/garijo_sciknow17/url_search_output.json

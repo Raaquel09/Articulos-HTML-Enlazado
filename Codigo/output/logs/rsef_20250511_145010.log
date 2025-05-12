@@ -1,0 +1,11 @@
+2025-05-11 14:50:10,618:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 14:50:10,672:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/stankovsi_2024/processed_metadata.json
+2025-05-11 14:50:10,742:INFO:Successfully opened JSON
+2025-05-11 14:50:10,744:INFO:Analyzing directionality for 10.1007/978-3-031-65794-8_7
+2025-05-11 14:50:10,746:INFO:Checking bidirectional links
+2025-05-11 14:51:35,331:INFO:Already created a file: ../Pruebas/SalidaRSEF1/stankovsi_2024/JSONs/StankovskiA_RepoFromPaper.json
+2025-05-11 14:56:13,215:ERROR:ERROR: https://github.com/kermitt2/grobid SOMEF command timed out after 5 minutes
+2025-05-11 14:56:13,220:INFO:Issue while downloading the repository for 10.1007/978-3-031-65794-8_7
+2025-05-11 14:58:10,061:INFO:Checking unidirectional links
+2025-05-11 14:58:51,509:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/stankovsi_2024/url_search_output.json
+2025-05-11 14:58:51,589:INFO:Output saved to: ../Pruebas/SalidaRSEF1/stankovsi_2024/url_search_output.json

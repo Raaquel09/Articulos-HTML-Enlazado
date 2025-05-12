@@ -1,0 +1,5 @@
+2025-05-11 23:54:14,166:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:54:14,176:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/blue_sky_cr/processed_metadata.json
+2025-05-11 23:54:14,191:INFO:Successfully opened JSON
+2025-05-11 23:54:14,200:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/blue_sky_cr/url_search_output.json
+2025-05-11 23:54:14,219:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/blue_sky_cr/url_search_output.json

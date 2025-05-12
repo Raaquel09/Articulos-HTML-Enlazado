@@ -1,0 +1,11 @@
+2025-05-11 23:45:28,418:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:45:28,427:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/TEC_Toolkit_ISWC_2023/processed_metadata.json
+2025-05-11 23:45:28,443:INFO:Successfully opened JSON
+2025-05-11 23:45:28,443:INFO:Analyzing directionality for 10.1007/978-3-031-47243-5_5
+2025-05-11 23:45:28,443:INFO:Checking bidirectional links
+2025-05-11 23:46:45,110:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/TEC_Toolkit_ISWC_2023/JSONs/TEC-Toolkit_cfkg.json
+2025-05-11 23:47:21,758:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/TEC_Toolkit_ISWC_2023/JSONs/TEC-Toolkit_cfkg.json
+2025-05-11 23:47:27,212:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/TEC_Toolkit_ISWC_2023/JSONs/TEC-Toolkit_Data-Validation.json
+2025-05-11 23:47:37,792:INFO:Checking unidirectional links
+2025-05-11 23:47:50,291:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/TEC_Toolkit_ISWC_2023/url_search_output.json
+2025-05-11 23:47:50,305:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/TEC_Toolkit_ISWC_2023/url_search_output.json

@@ -1,0 +1,8 @@
+2025-05-11 16:55:12,170:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:55:12,180:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/enigma_global/processed_metadata.json
+2025-05-11 16:55:12,194:INFO:Successfully opened JSON
+2025-05-11 16:55:12,195:INFO:Analyzing directionality for 10.1038/s41398-020-0705-1
+2025-05-11 16:55:12,195:INFO:Checking bidirectional links
+2025-05-11 16:55:24,537:INFO:Checking unidirectional links
+2025-05-11 16:56:08,601:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/enigma_global/url_search_output.json
+2025-05-11 16:56:08,622:INFO:Output saved to: ../Pruebas/SalidaRSEF1/enigma_global/url_search_output.json

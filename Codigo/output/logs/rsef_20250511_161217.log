@@ -1,0 +1,10 @@
+2025-05-11 16:12:17,552:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:12:17,562:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/TPDL2022_gonzalez/processed_metadata.json
+2025-05-11 16:12:17,576:INFO:Successfully opened JSON
+2025-05-11 16:12:17,576:INFO:Analyzing directionality for 10.1007/978-3-031-16802-4_6
+2025-05-11 16:12:17,577:INFO:Checking bidirectional links
+2025-05-11 16:12:59,975:INFO:Already created a file: ../Pruebas/SalidaRSEF1/TPDL2022_gonzalez/JSONs/oeg-upm_FAIR-Research-Object.json
+2025-05-11 16:12:59,986:INFO:Already created a file: ../Pruebas/SalidaRSEF1/TPDL2022_gonzalez/JSONs/fair-software_howfairis.json
+2025-05-11 16:14:23,465:INFO:Checking unidirectional links
+2025-05-11 16:14:33,063:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/TPDL2022_gonzalez/url_search_output.json
+2025-05-11 16:14:33,083:INFO:Output saved to: ../Pruebas/SalidaRSEF1/TPDL2022_gonzalez/url_search_output.json

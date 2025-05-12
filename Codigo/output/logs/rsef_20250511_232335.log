@@ -1,0 +1,8 @@
+2025-05-11 23:23:39,432:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:23:39,442:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/SoMEF/processed_metadata.json
+2025-05-11 23:23:39,455:INFO:Successfully opened JSON
+2025-05-11 23:23:39,455:INFO:Analyzing directionality for 10.1109/bigdata47090.2019.9006447
+2025-05-11 23:23:39,456:INFO:Checking bidirectional links
+2025-05-11 23:24:51,849:INFO:Checking unidirectional links
+2025-05-11 23:25:03,295:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/SoMEF/url_search_output.json
+2025-05-11 23:25:03,313:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/SoMEF/url_search_output.json

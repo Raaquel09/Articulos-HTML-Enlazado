@@ -1,0 +1,43 @@
+[
+    {
+        "title": "WIDOCO: A Wizard for Documenting Ontologies",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/dgarijo/Widoco",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.591294",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-319-68204-4_9",
+        "arxiv": null,
+        "abstract": "Abstract. In this paper we describe WIDOCO, a WIzard for DOCu-menting Ontologies that guides users through the documentation processof their vocabularies. Given an RDF vocabulary, WIDOCO detects miss-ing vocabulary metadata and creates a documentation with diagrams,human readable descriptions of the ontology terms and a summary ofchanges with respect to previous versions of the ontology. The docu-mentation consists on a set of linked enriched HTML pages that can befurther extended by end users. WIDOCO is open source and builds onwell established Semantic Web tools. So far, WIDOCO has been used todocument more than one hundred ontologies in different domains.Keywords: Ontology documentation, Ontology evolution, Ontology un-derstanding, OWL OntologiesResource Type: SoftwarePermanent URL: https://w3id.org/widocoSoftware DOI: https://doi.org/10.5281/zenodo.5912941 IntroductionOntology engineering methodologies acknowledge reuse of existing vocabulariesas a crucial step when developing a new ontology [11]. Therefore, ontology au-thors often provide a human-readable documentation of their vocabularies, inorder to facilitate their understanding and adoption by other researchers [9].There are three main aspects related to ontology documentation. The firstone is creating a human-readable representation of the content of the ontology:metadata, definition of classes and properties, visualization (e.g., diagrams relat-ing the different concepts) and versioning (explanation of the difference betweenversions of the ontologies). The second aspect is creating machine-readable an-notations of documentation metadata (e.g., provenance, snippets for facilitatingvocabulary discovery by search engines) and the third aspect is preparing thedocumentation files to be accessed as a web resource (doing content negotiation).Related work has been proposed to facilitate some of these aspects. For ex-ample, ontology editors like Protégé [8], have plugins for automatically creatingan HTML documentation with the definition of classes and properties.1 Simi-larly, approaches like LODE [9] or Parrot [12] provide drag-and-drop services to1 https://protegewiki.stanford.edu/wiki/OWLDocautomatically document ontology terms. However, most approaches are typicallydesigned for Semantic Web experts, presenting some of the following issues:1. Lack of guidelines and best practices for ontology documentation: users de-veloping ontologies may not know which are the common terms used todescribe the metadata of their ontologies. These metadata are important,because they are used by existing tools to create human readable descrip-tions of an ontology.2. Lack of ontology metadata completion: Current efforts do not indicate whichkey information may be missing when documenting an ontology.3. Lack of an ecosystem for ontology documentation and customization: mostexisting approaches focus on specific aspects of ontology documentation.On the one hand, approaches like LODE [9] generate a human readabledescription of the classes and properties of a given ontology, but neglect thegeneration of diagrams. On the other hand, tools like WebVowl [5] createdynamic visualizations of ontologies, but do not deal with the generation oftext. Integrating the outcome of these and other tools and customizing themaccording to user preferences takes time, especially to non programmers.",
+        "publication_date": "2017-01-01",
+        "authors": "Daniel Garijo",
+        "file_name": "20250511231155.pdf",
+        "file_path": "../Pruebas/SalidaRSEFBasica/widoco-iswc2017/PDFs/20250511231155.pdf",
+        "pdf_link": "https://dgarijo.com/papers/widoco-iswc2017.pdf"
+    }
+]

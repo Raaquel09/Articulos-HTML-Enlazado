@@ -1,0 +1,5 @@
+2025-05-11 23:25:30,805:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:25:30,814:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/foam-4/processed_metadata.json
+2025-05-11 23:25:30,828:INFO:Successfully opened JSON
+2025-05-11 23:25:30,839:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/foam-4/url_search_output.json
+2025-05-11 23:25:30,855:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/foam-4/url_search_output.json

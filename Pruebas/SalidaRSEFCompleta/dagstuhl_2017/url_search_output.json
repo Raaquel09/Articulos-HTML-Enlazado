@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Engineering Academic Software",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/danielskatz/sustaining-research-projects",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/dagstuhl_2017/PDFs/20250512001734.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "URL: https://github.com/danielskatz/sustaining-research-projects."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.4230/dagman.6.1.1",
+        "abstract": "AbstractSoftware is often a critical component of scientific research. It can be a component of theacademic research methods used to produce research results, or it may itself be an academicresearch result. Software, however, has rarely been considered to be a citable artifact in its ownright. With the advent of open-source software, artifact evaluation committees of conferences,and journals that include source code and running systems as part of the published artifacts, weforesee that software will increasingly be recognized as part of the academic process. The qualityand sustainability of this software must be accounted for, both a priori and a posteriori.The Dagstuhl Perspectives Workshop on “Engineering Academic Software” has examined thestrengths, weaknesses, risks, and opportunities of academic software engineering. A key outcomeof the workshop is this Dagstuhl Manifesto, serving as a roadmap towards future professionalsoftware engineering for software-based research instruments and other software produced andused in an academic context. The manifesto is expressed in terms of a series of actionable“pledges” that users and developers of academic research software can take as concrete stepstowards improving the environment in which that software is produced.Perspectives Workshop June 19–24, 2016 – http://www.dagstuhl.de/162521998 ACM Subject Classification D.2.9 [Software Engineering] ManagementKeywords and phrases Academic software, Research software, Software citation, Software sus-tainabilityDigital Object Identifier 10.4230/DagMan.6.1.1∗ Main contact: Jurgen J. Vinju, Jurgen.Vinju@cwi.nl.Except where otherwise noted, content of this manifesto is licensedunder a Creative Commons BY 3.0 Unported licenseEngineering Academic Software, Dagstuhl Manifestos, Vol. 6, Issue 1, pp. 1–20Authors: A. Allen et al.Dagstuhl ManifestosSchloss Dagstuhl – Leibniz-Zentrum für Informatik, Dagstuhl Publishing, Germanyhttp://www.dagstuhl.de/16252http://dx.doi.org/10.4230/DagMan.6.1.1http://creativecommons.org/licenses/by/3.0/http://creativecommons.org/licenses/by/3.0/http://www.dagstuhl.de/dagman/http://www.dagstuhl.de2 Engineering Academic SoftwareExecutive SummaryAlthough the role of software is becoming increasingly important in diverse fields of research,it is commonly not given due recognition. Software is often not cited, or even consideredto be citable. Developers of research software are not given due credit. In cases wheresoftware embodies a core intellectual contribution of research, its creators may not be invitedas co-authors on papers disseminating that research. In cases where software that enabledresearch can be cited, it may not be. This Dagstuhl Perspectives Workshop explored thecurrent state of engineering of academic research software, identified common problems withits development, recognition, and sustainability, proposed a set of concrete actions to improvethe state of academic research software, expressed as a number of personal pledges, and putforward numerous future research directions to better understand and support academicsoftware.The personal pledges expressed in this Dagstuhl Manifesto1 address three general con-cerns: (i) ensuring that research software is properly cited; (ii) promoting the careers ofresearch software engineers who develop academic software; and (iii) ensuring the qualityand sustainability of software during and following its development:",
+        "publication_date": "2017-01-01",
+        "authors": "Alice Allen, Cecilia Aragón, Christoph Becker, Jeffrey C. Carver, Andrei Chiş, Benoît Combemale, Mike Croucher, Kevin Crowston, Daniel Garijo, Ashish Gehani, Carole Goble, Robert Haines, Robert M. A. Hirschfeld, James Howison, Kathryn D. Huff, Caroline Jay, Daniel S. Katz, Claude Kirchner, Katie Kuksenok, Ralf Lämmel, Oscar Nierstrasz, Matt Turk, Rob V. van Nieuwpoort, Matthew Vaughn, Jurgen Vinju",
+        "file_name": "20250512001734.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/dagstuhl_2017/PDFs/20250512001734.pdf",
+        "pdf_link": "https://dgarijo.com/papers/dagstuhl_2017.pdf"
+    }
+]

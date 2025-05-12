@@ -1,0 +1,5 @@
+2025-05-11 16:34:11,114:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:34:11,125:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/gil-etal-kcap2015/processed_metadata.json
+2025-05-11 16:34:11,138:INFO:Successfully opened JSON
+2025-05-11 16:34:11,146:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/gil-etal-kcap2015/url_search_output.json
+2025-05-11 16:34:11,155:INFO:Output saved to: ../Pruebas/SalidaRSEF1/gil-etal-kcap2015/url_search_output.json

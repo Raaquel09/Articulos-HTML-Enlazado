@@ -1,0 +1,519 @@
+[
+    {
+        "title": "Packaging research artefacts with RO-Crate",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/ResearchObject/ro-crate",
+                "type": "git",
+                "paper_frequency": 7,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/Finn-Lab/MGS-gut",
+                "type": "git",
+                "paper_frequency": 4,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/workflowhub-eu/galaxy2cwl",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/researchobject/ro-crate-py",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/researchobject/ro-crate",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/en/repositories",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/e11938258/RO-Crates-and-Excel",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/duraspace/pcdm",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/UTS-eResearch/ro-crate-js",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/ResearchObject/ro-terms",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/ResearchObject/ro-crate-ruby",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/KockataEPich/CheckMyCrate",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/GhaithArf/ro-crate-rda-madmp-mapper",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/DiSSCo/SDR",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/CoEDL/ocfl-tools",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/CoEDL/modpdsc",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/BrennerG/Ro-Crate_2_ma-DMP",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/UTS-eResearch/ro-",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/GhaithArf/ro-crate-rda-",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.5146227",
+                "type": "zenodo",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.5068950",
+                "type": "zenodo",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.3956493",
+                "type": "zenodo",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.3903463",
+                "type": "zenodo",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.51314",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.4916734",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.4705078",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.4633732",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.4605654",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.4541002",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.4477164",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.4031327",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.3922136",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.3541888",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.3250687",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.1445817",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.12586",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.3233/ds-210053",
+        "arxiv": "2108.06503",
+        "abstract": "Abstract. An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets,software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to processby automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packagingresearch artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations inJSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in awide variety of situations.An RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers,provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is usedacross multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying “just enough” LinkedData standards, RO-Crate simplifies the process of making research outputs FAIR while also enhancing research reproducibility.An RO-Crate for this article1 is archived at https://doi.org/10.5281/zenodo.5146227.Keywords: Data publishing, data packaging, FAIR, Linked Data, metadata, reproducibility, research object1. IntroductionThe move towards Open Science has increased the need and demand for the publication of artefactsof the research process [104]. This is particularly apparent in domains that rely on computational ex-periments; for example, the publication of software, datasets and records of the dependencies that suchexperiments rely on [113].It is often argued that the publication of these assets, and specifically software [80], workflows [55] anddata, should follow the FAIR principles [123]; namely, that they are Findable, Accessible, Interoperableand Reusable. These principles are agnostic to the implementation strategy needed to comply with them.Hence, there has been an increasing amount of work in the development of platforms and specificationsthat aim to fulfil these goals [91].Important examples include data publication with rich metadata (e.g. Zenodo [40]), domain-specificdata deposition (e.g. PDB [16]) and following practices for reproducible research software [101] (e.g.use of containers). While these platforms are useful, experience has shown that it is important to putgreater emphasis on the interconnection of the multiple artefacts that make up the research process [71].The notion of Research Objects [12] (RO) was introduced to address this connectivity, providingsemantically rich aggregations of (potentially distributed) resources with a layer of structure over aresearch study; this is then to be delivered in a machine-readable format.A Research Object combines the ability to bundle multiple types of artefacts together, such as spread-sheets, code, examples, and figures. The RO is augmented with annotations and relationships that de-scribe the artefacts’ context (e.g. a CSV being used by a script, a figure being a result of a workflow).*Corresponding author. E-mail: soiland-reyes@manchester.ac.uk.1https://w3id.org/ro/doi/10.5281/zenodo.5146227https://orcid.org/0000-0002-4763-3943https://orcid.org/0000-0002-1112-1292https://doi.org/10.5281/zenodo.5146227mailto:soiland-reyes@manchester.ac.ukhttps://w3id.org/ro/doi/10.5281/zenodo.5146227CORRECTED  PROOFS. Soiland-Reyes et al. / Packaging research artefacts with RO-Crate 3This notion of ROs provides a compelling vision as an approach for implementing FAIR data. How-ever, existing Research Object implementations require a large technology stack [14], are typically tai-lored to a particular platform and are also not easily usable by end-users.To address this gap, a new community came together [23] to develop RO-Crate – an approach topackage and aggregate research artefacts with their metadata and relationships. The aim of this paperis to introduce RO-Crate and assess it as a strategy for making multiple types of research artefacts FAIR.Specifically, the contributions of this paper are as follows:1. An introduction to RO-Crate, its purpose and context;",
+        "publication_date": "2022-01-04",
+        "authors": "Stian Soiland‐Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M. Fernández, Daniel Garijo, Björn Grüning, M. Rosa, Simone Leo, Eoghan Ó Carragáin, Marc Portier, A. Trisovic, RO-Crate Community, Paul Groth, Carole Goble",
+        "file_name": "20250511235719.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/PDFs/20250511235719.pdf",
+        "pdf_link": "https://dgarijo.com/papers/ro_crate_data_science.pdf"
+    }
+]

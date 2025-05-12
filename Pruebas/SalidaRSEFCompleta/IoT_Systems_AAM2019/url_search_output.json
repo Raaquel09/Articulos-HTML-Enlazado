@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Semantic Modelling of Plans and Execution Traces for Enhancing Transparency of IoT Systems",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/TrustLens/EP-PLAN",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/IoT_Systems_AAM2019/PDFs/20250512002738.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "Available: https://www.w3.org/TR/2013/REC-prov-o-20130430/[4] D."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1109/iotsms48152.2019.8939260",
+        "abstract": "Abstract—Transparency of IoT systems is an essential require-ment for enhancing user’s trust towards such systems. Prove-nance mechanisms documenting the execution of IoT systemsare often cited as an enabler of such transparency. However,provenance records often lack detailed descriptions of a system’sexpected behaviour. Plan specifications describe the steps neededto achieve a certain goal by a human or an automated system.Once plans reach a certain level of complexity, they are typicallydecomposed in different levels of abstraction. However, thisdecomposition makes it difficult to relate high level abstract plansto their granular execution traces. This paper introduces EP-Plan, a vocabulary for linking the different levels of granularityof a plan with their respective provenance traces. EP-Plan alsoprovides the means to describe plan metadata such as constraints,policies, rationales, and expected participating agents associatedwith a plan.I. INTRODUCTIONAn increasing number of systems provide means to docu-ment provenance records of past executions [1] (i.e., executiontraces), in order to inspect and explain the creation process ofexisting results or behaviour of a system. In this paper, weargue that recording such provenance can be further enhancedby recording the set of planned steps that guided its execution,and we refer to such records as plans.Plans document intended system behaviour, which is ben-eficial at the point when no runtime provenance is available(e.g. to assess risks associated with a planned IoT deployment).Plans are also critical to understand errors, enabling a pointof reference for comparison when the execution deviates fromwhat was planned to happen.Gateway CloudPlanRelay data from sensorsPlanProcess and store dataPlanDeliver smart temperature monitoring at Alice’s homeSensorPlanProduce observationsIoT SystemExecution TraceA log of activities generating and publishing raw data values and timestampsExecution TraceA log of activities receiving and uploading sensor data  Execution Trace",
+        "publication_date": "2019-10-01",
+        "authors": "Milan Marković, Daniel Garijo, Peter Edwards, Wamberto Vasconcelos",
+        "file_name": "20250512002738.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/IoT_Systems_AAM2019/PDFs/20250512002738.pdf",
+        "pdf_link": "https://dgarijo.com/papers/IoT_Systems_AAM2019.pdf"
+    }
+]

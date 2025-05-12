@@ -1,0 +1,8 @@
+2025-05-12 00:16:50,762:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:16:50,770:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/iui2017/processed_metadata.json
+2025-05-12 00:16:50,783:INFO:Successfully opened JSON
+2025-05-12 00:16:50,784:INFO:Analyzing directionality for 10.1145/3025171.3025193
+2025-05-12 00:16:50,784:INFO:Checking bidirectional links
+2025-05-12 00:17:00,078:INFO:Checking unidirectional links
+2025-05-12 00:17:15,866:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/iui2017/url_search_output.json
+2025-05-12 00:17:15,883:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/iui2017/url_search_output.json

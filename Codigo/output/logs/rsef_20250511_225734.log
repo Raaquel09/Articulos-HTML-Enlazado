@@ -1,0 +1,5 @@
+2025-05-11 22:57:34,718:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 22:57:34,754:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFBasica/iswc_llm/processed_metadata.json
+2025-05-11 22:57:34,806:INFO:Successfully opened JSON
+2025-05-11 22:57:34,845:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFBasica/iswc_llm/url_search_output.json
+2025-05-11 22:57:34,892:INFO:Output saved to: ../Pruebas/SalidaRSEFBasica/iswc_llm/url_search_output.json

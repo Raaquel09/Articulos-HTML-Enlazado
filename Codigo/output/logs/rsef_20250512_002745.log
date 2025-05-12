@@ -1,0 +1,8 @@
+2025-05-12 00:27:45,145:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:27:45,155:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/IoT_Systems_AAM2019/processed_metadata.json
+2025-05-12 00:27:45,168:INFO:Successfully opened JSON
+2025-05-12 00:27:45,168:INFO:Analyzing directionality for 10.1109/iotsms48152.2019.8939260
+2025-05-12 00:27:45,168:INFO:Checking bidirectional links
+2025-05-12 00:27:53,343:INFO:Checking unidirectional links
+2025-05-12 00:28:02,798:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/IoT_Systems_AAM2019/url_search_output.json
+2025-05-12 00:28:02,813:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/IoT_Systems_AAM2019/url_search_output.json

@@ -1,0 +1,5 @@
+2025-05-11 16:09:09,125:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:09:09,136:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/paper-09/processed_metadata.json
+2025-05-11 16:09:09,150:INFO:Successfully opened JSON
+2025-05-11 16:09:09,159:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/paper-09/url_search_output.json
+2025-05-11 16:09:09,177:INFO:Output saved to: ../Pruebas/SalidaRSEF1/paper-09/url_search_output.json

@@ -1,0 +1,9 @@
+2025-05-11 15:00:53,706:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 15:00:51,254:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/toledo2024rmldoc/processed_metadata.json
+2025-05-11 15:00:51,327:INFO:Successfully opened JSON
+2025-05-11 15:00:51,329:INFO:Analyzing directionality for 10.1007/978-3-031-78952-6_51
+2025-05-11 15:00:51,331:INFO:Checking bidirectional links
+2025-05-11 15:01:25,645:INFO:Already created a file: ../Pruebas/SalidaRSEF1/toledo2024rmldoc/JSONs/oeg-upm_rmldoc.json
+2025-05-11 15:01:25,690:INFO:Checking unidirectional links
+2025-05-11 15:01:40,113:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/toledo2024rmldoc/url_search_output.json
+2025-05-11 15:01:40,238:INFO:Output saved to: ../Pruebas/SalidaRSEF1/toledo2024rmldoc/url_search_output.json

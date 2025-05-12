@@ -1,0 +1,40 @@
+[
+    {
+        "title": "KGTK: A Toolkit for Large Knowledge Graph Manipulation and Analysis",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/usc-isi-i2/kgtk",
+                "type": "git",
+                "paper_frequency": 5,
+                "extraction_methods": [
+                    {
+                        "type": "bidir",
+                        "location": "README_TEXT",
+                        "location_type": "ARXIV",
+                        "source": "SOMEF"
+                    },
+                    {
+                        "type": "bidir",
+                        "location": "RELATED_PAPERS",
+                        "location_type": "ARXIV",
+                        "source": "SOMEF"
+                    },
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/Camera_ready_ISWC__KGTK/PDFs/20250512002243.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "Resource type: Software License: MIT DOI: https://doi.org/10.5281/zenodo.3828068 Repository: https://github.com/usc-isi-i2/kgtk/Keywords: knowledge graph · knowledge graph embedding · knowledge graph filtering · knowledge graph manipulation 1 Introduction Knowledge graphs (KGs) have become the preferred technology for representing, sharing and using knowledge in applications."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-030-62466-8_18",
+        "arxiv": "2006.00088",
+        "abstract": "Abstract. Knowledge graphs (KGs) have become the preferred tech-nology for representing, sharing and adding knowledge to modern AIapplications. While KGs have become a mainstream technology, theRDF/SPARQL-centric toolset for operating with them at scale is hetero-geneous, difficult to integrate and only covers a subset of the operationsthat are commonly needed in data science applications. In this paper wepresent KGTK, a data science-centric toolkit designed to represent, cre-ate, transform, enhance and analyze KGs. KGTK represents graphs intables and leverages popular libraries developed for data science applica-tions, enabling a wide audience of developers to easily construct knowl-edge graph pipelines for their applications. We illustrate the frameworkwith real-world scenarios where we have used KGTK to integrate andmanipulate large KGs, such as Wikidata, DBpedia and ConceptNet.Resource type: SoftwareLicense: MITDOI: https://doi.org/10.5281/zenodo.3828068Repository: https://github.com/usc-isi-i2/kgtk/Keywords: knowledge graph · knowledge graph embedding · knowledgegraph filtering · knowledge graph manipulation1 IntroductionKnowledge graphs (KGs) have become the preferred technology for representing,sharing and using knowledge in applications. A typical use case is building a newknowledge graph for a domain or application by extracting subsets of several ex-isting knowledge graphs, combining these subsets in application-specific ways,augmenting them with information from structured or unstructured sources, andcomputing analytics or inferred representations to support downstream applica-tions. For example, during the COVID-19 pandemic, several efforts focused on2 Filip Ilievski, Daniel Garijo et. al.building KGs about scholarly articles related to the pandemic starting from theCORD-19 dataset provided by the Allen Institute for AI [25].1 Enhancing thesedata with with KGs such as DBpedia [1] and Wikidata [24] to incorporate gene,chemical, disease and taxonomic information, and computing network analyticson the resulting graphs, requires the ability to operate these these KGs at scale.Many tools exist to query, transform and analyze KGs. Notable examples in-clude graph databases, such as RDF triple stores and Neo4J;2 tools for operatingon RDF such as graphy3 and RDFlib4, entity linking tools such as WAT [18] orBLINK [26], entity resolution tools such as MinHash-LSH [14] or MFIBlocks [12],libraries to compute graph embeddings such as PyTorch-BigGraph [13] and li-braries for graph analytics, such as graph-tool5 and NetworkX.6There are three main challenges when using these tools together. First, toolsmay be challenging to set up with large KGs (e.g., the Wikidata RDF dump takesover a week to load into a triple store) and often need custom configurationsthat require significant expertise. Second, interoperating between tools requiresdeveloping data transformation scripts, as some of them may not support thesame input/output representation. Third, composing two or more tools together(e.g., to filter, search, and analyze a KG) includes writing the intermediate resultsto disk, which is time and memory consuming for large KGs.In this paper, we introduce the Knowledge Graph Toolkit (KGTK), a frame-work for manipulating, validating, and analyzing large-scale KGs. Our work isinspired by Scikit-learn [17] and SpaCy,7 two popular toolkits for machine learn-",
+        "publication_date": "2020-01-01",
+        "authors": "Filip Ilievski, Daniel Garijo, Hans Chalupsky, Naren Teja Divvala, Yixiang Yao, Craig Milo Rogers, Rongpeng Li, Jun Liu, Amandeep Singh, Daniel Schwabe, Pedro Szekely",
+        "file_name": "20250512002243.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/Camera_ready_ISWC__KGTK/PDFs/20250512002243.pdf",
+        "pdf_link": "https://dgarijo.com/papers/Camera_ready_ISWC__KGTK.pdf"
+    }
+]

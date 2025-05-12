@@ -1,0 +1,155 @@
+[
+    {
+        "title": "TEC: Transparent Emissions Calculation Toolkit",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/TEC-Toolkit/PECO",
+                "type": "git",
+                "paper_frequency": 4,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/TEC-Toolkit/ECFO",
+                "type": "git",
+                "paper_frequency": 4,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/TEC-Toolkit/cfkg",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/TEC-Toolkit/Semantic",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/TEC-Toolkit/Data-Validation",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/perma-id/w3id.org",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.7916359",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.7916120",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.7916096",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.7803000",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-031-47243-5_5",
+        "arxiv": null,
+        "abstract": "Abstract. Greenhouse gas emissions have become a common means fordetermining the carbon footprint of any commercial activity, rangingfrom booking a trip or manufacturing a product to training a machinelearning model. However, calculating the amount of emissions associatedwith these activities can be a difficult task, involving estimations of en-ergy used and considerations of location and time period. In this paper,we introduce the Transparent Emissions Calculation (TEC) toolkit, anopen source effort aimed at addressing this challenge. Our contributionsinclude two ontologies (ECFO and PECO) that represent emissions con-version factors and the provenance traces of carbon emissions calcula-tions (respectively), a public knowledge graph with thousands of conver-sion factors (with their corresponding YARRRML and RML mappings)and a prototype carbon emissions calculator which uses our knowledgegraph to produce a transparent emissions report.Resource permanent URL: https://w3id.org/tec-toolkitKeywords: Ontology · GHG Emissions · Carbon Accounting · Trans-parency1 IntroductionThe Net Zero agenda has gained significant traction across the world, with over40 countries worldwide requiring organisations to periodically calculate and re-port their greenhouse gas (GHG) emissions [29]. Calculating them requires real-world data observations quantifying various aspects of business activities (e.g.,amount of fuel consumed by a fleet of vehicles) and additional resources such asmethodologies for transforming activity data into GHG estimates (also referredto as emissions scores). Reported emissions scores may differ depending on vari-ous factors including the calculation methodology and software used, geopoliticallocation, government requirements for reporting methods, applicable emissions2 M. Markovic et al.conversion factors (ECFs), and the type of reported GHG emissions. Emissionscalculations may also include unintentional errors, such as the use of ECFs whichmight be out of date, from unreliable publishers, or incorrectly applied to a spe-cific activity, thus causing erroneous results. In addition, organisations may havea vested interest in deliberately under-reporting on certain aspects of carbonfootprint if they deem it could have negative impact on the company image [20].While reporting requirements may differ from one country to another, organ-isations are expected to be transparent about their submitted results. Achievingsuch transparency may be challenging as it requires a clear history of whichECFs were used and how the emissions scores were calculated including detailsabout the origin and accuracy of the input data. These details are typicallycommunicated in the form of free text reports which are not suitable for auto-mated processing. However, such transparency is necessary to support assess-ments evaluating the trustworthiness and meaningful comparison of emissionsscores reported by organisations across different sectors over time. We arguethat provenance traces of such calculations described in the form of KnowledgeGraphs (KGs) potentially provide a machine-understandable solution to thischallenge by making the calculations more transparent and providing the meansfor automated processing and analysis. This is a core motivation for our Trans-parent Emissions Calculation (TEC) toolkit which aims to address this issueby providing ontologies and software tools for enhancing the transparency ofemissions calculations using KGs. Our contributions include:",
+        "publication_date": "2023-01-01",
+        "authors": "Milan Marković, Daniel Garijo, Stefano Germano, Iman Naja",
+        "file_name": "20250511234520.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/TEC_Toolkit_ISWC_2023/PDFs/20250511234520.pdf",
+        "pdf_link": "https://dgarijo.com/papers/TEC_Toolkit_ISWC_2023.pdf"
+    }
+]

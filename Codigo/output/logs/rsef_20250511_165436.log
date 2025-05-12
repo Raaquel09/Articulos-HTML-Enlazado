@@ -1,0 +1,8 @@
+2025-05-11 16:54:36,578:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:54:36,591:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/best_practices2020/processed_metadata.json
+2025-05-11 16:54:36,605:INFO:Successfully opened JSON
+2025-05-11 16:54:36,605:INFO:Analyzing directionality for 10.3233/ssw200034
+2025-05-11 16:54:36,606:INFO:Checking bidirectional links
+2025-05-11 16:54:48,472:INFO:Checking unidirectional links
+2025-05-11 16:54:57,045:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/best_practices2020/url_search_output.json
+2025-05-11 16:54:57,063:INFO:Output saved to: ../Pruebas/SalidaRSEF1/best_practices2020/url_search_output.json

@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Mining Abstractions in Scientific Workflows",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/dgarijo/FragFlow",
+                "type": "git",
+                "paper_frequency": 4,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/timtadh/parsemis",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/dgarijo/WingsProvenanceExport",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": null,
+        "arxiv": null,
+        "abstract": "Mining Abstractions in ScientificWorkflowsAuthor: Daniel Garijo VerdejoSupervisors: Prof. Dr. Oscar CorchoProf. Dra. Yolanda GilDecember, 2015iiilTribunal nombrado por el Sr. Rector Magfco. de la Universidad Politécnica de Madrid,el d́ıa 30 de octubre de 2015Presidente: Dra. Asunción Gómez PérezVocal: Dr. Jose Manuel Gómez PérezVocal: Dr. Malcolm AtkinsonVocal: Dr. Rafael TolosanaSecretario: Dr. Mark WilkinsonSuplente: Dr. Mariano Fernández LópezSuplente: Dra. Belén Dı́az AgudoRealizado el acto de defensa y lectura de la Tesis el d́ıa 3 de diciembre de 2015 en laFacultad de InformáticaCalificaćıon:EL PRESIDENTE VOCAL 1 VOCAL 2VOCAL 3 EL SECRETARIOiiiivlvA mis padresvviviAcknowledgementsFinally, after five years, I can finally say that I see light at the end of thetunnel. Maybe the other side is still a bit cloudy at the moment, but theimportant thing is to have arrived here. And, honestly, I think I wouldn’thave made it to this point without all the people who have been by my sideduring these years.First, I would like to thank my supervisors Oscar Corcho and Yolanda Gilfor guiding me whenever I got stuck and for having the patience to answerall my questions. Furthermore, thanks to their help, together with AsunciónGómez Pérez’s advice, I was granted the FPU (Formación de ProfesoradoUniversitario) scholarship from the Ministerio de Ciencia e Innovación. Thisscholarship has funded the internships and the research described on thisdocument, and I am very grateful for having had the opportunity to enjoyit.I would also like to thank my family, specially my parents (Francisco Javierand Maŕıa Felisa) and my sister Elisa for all their support, advice andsuggestions during this period. Even from the distance!Next up are my lab mates, who have helped me with the figures (MaŕıaPoveda, I really think you could write a thesis just by doing cool figures),logos (Idafen Santana, also responsible for our soccer team), technical sup-port (Miguel Angel Garćıa and Raúl Alcázar), advice for the thesis (Andrés",
+        "publication_date": null,
+        "authors": "",
+        "file_name": "20250512001353.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/tesis/PDFs/20250512001353.pdf",
+        "pdf_link": "https://dgarijo.com/papers/tesis.pdf"
+    }
+]

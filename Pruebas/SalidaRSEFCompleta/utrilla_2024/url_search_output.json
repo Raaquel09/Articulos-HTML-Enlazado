@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Automated Extraction of Research Software Installation Instructions from README Files: An Initial Analysis",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/carlosug/READMEtoP-PLAN",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/utrilla_2024/PDFs/20250511232652.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "3 The code and corpus are publicly available at: https://github.com/carlosug/READMEtoP-PLAN/[44] 3.1 Classical Planning: Software Installation Instructions The central objective of planning tasks for an intelligent assistant is to au-tonomously detect the sequence of steps to execute in order to accomplish a 4 Carlos Utrilla Guerrero, Oscar Corcho, and Daniel Garijo Fig."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-031-65794-8_8",
+        "abstract": "Abstract. Research Software code projects are typically described witha README files, which often contains the steps to set up, test andrun the code contained in them. Installation instructions are writtenin a human-readable manner and therefore are difficult to interpret byintelligent assistants designed to help other researchers setting up acode repository. In this paper we explore this gap by assessing whetherLarge Language Models (LLMs) are able to extract installation instruc-tion plans from README files. In particular, we define a methodol-ogy to extract alternate installation plans, an evaluation framework toassess the effectiveness of each result and an initial quantitative eval-uation based on state of the art LLM models (llama-2-70b-chat andMixtral-8x7b-Instruct-v0.1). Our results show that while LLMs are apromising approach for finding installation instructions, they present im-portant limitations when these instructions are not sequential or manda-tory.Keywords: Research/Scientific Knowledge Graphs · Natural ScientificLanguage Processing · Information Extraction1 IntroductionResearch Software [5] is becoming increasingly recognized as a means to supportthe results described in scientific publications. Researchers typically documenttheir software project in code repositories, using README files (i.e., readme.md)with instructions on how to install, setup and run their software tools. However,software documentation is usually described in natural language, which makesit challenging to automatically verify whether the installation steps required tomake the software project work are accurate or not. While seemingly arbitrary, itcan be challenging for researchers to follow instructions from different documentstandards and make sure they work harmonically and consistently.In this work we aim to address these issues by exploring and assessing theabilities of state of the art Large Language Models (LLMs) to extract installationmethods (Plans) and their corresponding instructions (Steps) from README2 Carlos Utrilla Guerrero, Oscar Corcho, and Daniel Garijofiles. LLMs such as GPT-4 [21] and MISTRAL [12] have been firmly establishedas state of the art approaches in various natural scientific language process-ing (NSLP) tasks related to knowledge extraction from human-like scientificsources such as software documentation from public sharing code hosting ser-vices. LLMs have also shown promise in following instructions [26] and learningto use tools [25]. However, existing research in the field is still quite novel.Our goal in this work is twofold: given a README file, we aim to 1) detect allthe available Plans (e.g., installation methods for different platforms or operativesystems) and, 2) for each Plan, detect what steps are required to install a softwareproject, as annotated by the authors. Our contributions3 include:1. PlanStep, a methodology to extract structured installation instructions fromREADME files;2. An evaluation framework to assess the ability of LLMs to capture installationinstructions, both in terms of Plans and Steps;3. An annotated corpus of 33 research software projects with their respectiveinstallation plans and steps.We implement our approach by following our methodology to evaluate twostate of the art LLMs (LLaMA-2 [31] and (MIXTRAL [12]) on both installationinstruction tasks with our corpus of annotated projects.",
+        "publication_date": "2024-01-01",
+        "authors": "Carlos Utrilla Guerrero, Óscar Corcho, Daniel Garijo",
+        "file_name": "20250511232652.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/utrilla_2024/PDFs/20250511232652.pdf",
+        "pdf_link": "https://dgarijo.com/papers/utrilla_2024.pdf"
+    }
+]

@@ -1,0 +1,7 @@
+2025-05-11 16:47:44,444:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:47:44,458:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/iuiDemo2019/processed_metadata.json
+2025-05-11 16:47:44,471:INFO:Successfully opened JSON
+2025-05-11 16:47:44,472:INFO:Analyzing directionality for 10.1145/3308557.3308711
+2025-05-11 16:47:44,472:INFO:No implementation URLs present in the paper object!
+2025-05-11 16:47:44,482:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/iuiDemo2019/url_search_output.json
+2025-05-11 16:47:44,492:INFO:Output saved to: ../Pruebas/SalidaRSEF1/iuiDemo2019/url_search_output.json

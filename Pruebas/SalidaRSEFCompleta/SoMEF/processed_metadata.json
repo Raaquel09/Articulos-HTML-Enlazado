@@ -1,0 +1,71 @@
+[
+    {
+        "title": "SoMEF: A Framework for Capturing Scientific Software Metadata from its Documentation",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/tensorflow/tensorflow",
+                "type": "git",
+                "paper_frequency": 5,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/KnowledgeCaptureAndDiscovery/SM2KG",
+                "type": "git",
+                "paper_frequency": 4,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/whimian/pyGeoPressure",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/facebook/react",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1109/bigdata47090.2019.9006447",
+        "arxiv": null,
+        "abstract": "Abstract—Scientific software has become a key assetto reproduce and understand the products of scientificresearch in many disciplines. However, scientific software isbecoming increasingly complex and, as a result, researchersneed to spend a significant amount of time finding, readingand understanding software documentation to set it up.In this paper we describe SoMEF, a Software MetadataExtraction Framework designed to help highlighting themost important parts of scientific software documentation.SoMEF processes the README files in GitHub repositoriesto automatically extract which parts of their text referto the description, installation, invocation, or citation ofa software component. Despite its simple features, SoMEFsuccessfully categorizes README excerpts with a mini-mum 0.92 precision and 0.90 ROC AUC. These results,tested on a corpus of over 70 scientific software repositories,are a promising start towards automatically generatingknowledge graphs of scientific software metadata.I. INTRODUCTIONWithin the past few decades, computational sciencehas increasingly become recognized as a fundamentalapproach to answer scientific questions alongside theoryand experimentation [1]. However, the continuous devel-opment of new software makes it difficult for scientiststo keep track of different method implementations andto evaluate whether a certain piece of software suitstheir needs [2]. Scientists are required to spend timeporing through available software documentation andsource code in order to understand the software used ina project [3] and how to properly cite it. This process istime consuming and unappealing to scientists due to theheterogeneity and lack of unified structure in softwaredocumentation.Existing efforts have attempted to simplify this prob-lem by avoiding “wordy, unstructured, introductory de-scriptions” in favor of a specialized language just fordocumentation [3]. However, text documentation contin-ues to grow at an exponential rate [4].In this paper we aim to ease the process of un-derstanding, reusing and attributing scientific softwareby presenting SoMEF [5], a Software Metadata Ex-traction Framework that automatically extracts relevantsoftware metadata from its documentation. SoMEF takesas input a README file from a GitHub repositoryand identifies its description, installation instructions,invocation setup and citation. Our approach uses binaryclassification methods and organizes the results into astructured format that is comprehensible to both humansand machines. In addition, SoMEF will extract additionalmetadata about a piece of software beyond its documen-",
+        "publication_date": "2019-12-01",
+        "authors": "Allen Mao, Daniel Garijo, Shobeir Fakhraei",
+        "file_name": "20250511232328.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/SoMEF/PDFs/20250511232328.pdf",
+        "pdf_link": "https://dgarijo.com/papers/SoMEF.pdf"
+    }
+]

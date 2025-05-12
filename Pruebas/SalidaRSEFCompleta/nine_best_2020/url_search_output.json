@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Nine Best Practices for Research Software Registries and Repositories: A Concise Guide",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/force11/force11-sciwg",
+                "type": "git",
+                "paper_frequency": 4,
+                "extraction_methods": [
+                    {
+                        "type": "bidir",
+                        "location": "README_TEXT",
+                        "location_type": "ARXIV",
+                        "source": "SOMEF"
+                    },
+                    {
+                        "type": "bidir",
+                        "location": "RELATED_PAPERS",
+                        "location_type": "ARXIV",
+                        "source": "SOMEF"
+                    },
+                    {
+                        "type": "bidir",
+                        "location": "CITATION_README",
+                        "location_type": "TITLE",
+                        "source": "SOMEF"
+                    }
+                ]
+            }
+        ],
+        "arxiv": "2012.13117",
+        "publication_date": "2021-01-04",
+        "authors": "Task Force On Best Practices For Software Registries, Alain Monteil, Alejandra González-Beltrán, Alexandros Ioannidis, Alice Allen, Allen Lee, Anita Bandrowski, Bruce E. Wilson, Bryce Mecum, Cai Du, Carly Robinson, Daniel Garijo, Daniel S. Katz, David G. Long, Genevieve Milliken, Hervé Ménager, Jessica Hausman, Jurriaan H. Spaaks, Katrina Fenlon, Kristin Vanderbilt, Lorraine Hwang, Lynn Davis, Martin Fenner, Michael R. Crusoe, Michael Hucka, Mingfang Wu, Neil Chue Hong, Peter Teuben, Shelley Stall, Stephan Druskat, Ted Carnevale, Thomas E. Morrell",
+        "file_name": "20250512000532.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/nine_best_2020/PDFs/20250512000532.pdf",
+        "pdf_link": "https://dgarijo.com/papers/nine_best_2020.pdf"
+    }
+]

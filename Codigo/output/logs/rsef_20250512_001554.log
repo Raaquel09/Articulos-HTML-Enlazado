@@ -1,0 +1,8 @@
+2025-05-12 00:15:54,267:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:15:54,276:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/fgcs2017/processed_metadata.json
+2025-05-12 00:15:54,290:INFO:Successfully opened JSON
+2025-05-12 00:15:54,290:INFO:Analyzing directionality for 10.1007/978-94-009-2991-3_4
+2025-05-12 00:15:54,291:INFO:Checking bidirectional links
+2025-05-12 00:16:18,793:INFO:Checking unidirectional links
+2025-05-12 00:16:36,971:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/fgcs2017/url_search_output.json
+2025-05-12 00:16:36,987:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/fgcs2017/url_search_output.json

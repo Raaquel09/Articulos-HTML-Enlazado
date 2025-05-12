@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Best Practices for Implementing FAIR Vocabularies and Ontologies on the Web",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/perma-id/w3id.org",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.3707985",
+                "type": "zenodo",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.3233/ssw200034",
+        "arxiv": "2003.13084",
+        "abstract": "Abstract. With the adoption of Semantic Web technologies, an increas-ing number of vocabularies and ontologies have been developed in differ-ent domains, ranging from Biology to Agronomy or Geosciences. How-ever, many of these ontologies are still difficult to find, access and un-derstand by researchers due to a lack of documentation, URI resolvingissues, versioning problems, etc. In this chapter we describe guidelinesand best practices for creating accessible, understandable and reusableontologies on the Web, using standard practices and pointing to exist-ing tools and frameworks developed by the Semantic Web community.We illustrate our guidelines with concrete examples, in order to helpresearchers implement these practices in their future vocabularies.Keywords: Ontology metadata · Ontology publication · Ontology ac-cess · FAIR principles · Linked Data principles.1 IntroductionIn the last decade, a series of initiatives for open data, transparency and openscience have led to the development of a myriad of datasets and linked Knowl-edge Graphs on the Web.3 Ontologies and vocabularies have been developedaccordingly to represent the contents of these datasets and Knowledge Graphsand help in their integration and linking. However, while significant effort hasbeen spent on making data Findable, Accessible, Interoperable and Reusable(FAIR) [18], ontologies and vocabularies are often difficult to access, understandand reuse. This may be due to several reasons, including a lack of definitionsof ontology classes and properties; deprecated or unavailable imported ontolo-gies, non-resolvable ontology URIs, lack of examples and diagrams in the docu-mentation, or having scientific publications describing an ontology without anyreference to its implementation.The scientific community has started to acknowledge the need for ontologiesto be properly documented, versioned, published and maintained following the3 https://lod-cloud.net/https://lod-cloud.net/2 Garijo and Poveda-VillalónLinked Data Principles [6] and adapting the FAIR principles for data [8]. Butthese recommendations do not include guidelines on how to implement them for atarget vocabulary. In this chapter we address this issue by describing how to makean ontology or vocabulary comply with the FAIR principles, including examplessummarizing best practices from the community and our own experience; andpointing to popular existing tools and frameworks.Our guidelines are aimed at ontology engineers, and therefore the chapter isstructured following an ontology development process: Section 2 describes designdecisions to be considered when creating an ontology URI (naming conventions,versioning, permanent URIs); Section 3 describes how to create a documentationthat is easy to reuse and understand by others (with minimum metadata anddiagrams); Section 4 illustrates how to make an ontology accessible and findableon the Web; Section 5 points to existing end-to-end frameworks that support theontology publication process; and Section 6 concludes our chapter. We considerthe design and development of an ontology out of the scope of this chapter, asit has been covered by existing methodologies (e.g., LOT4 or NeOn [14]).2 Accessible Ontology URI DesignOntologies are digital artifacts, and therefore they should follow the Linked DataPrinciples,5 and use a URI namespace under control of its authors. The rationale",
+        "publication_date": "2020-11-12",
+        "authors": "Daniel Garijo, María Poveda‐Villalón",
+        "file_name": "20250512003308.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/best_practices2020/PDFs/20250512003308.pdf",
+        "pdf_link": "https://dgarijo.com/papers/best_practices2020.pdf"
+    }
+]

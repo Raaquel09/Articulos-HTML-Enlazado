@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Mapping the Web Ontology Language to the OpenAPI Specification",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/OAI/OpenAPI-Specification",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/KnowledgeCaptureAndDiscovery/OBA",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-030-65847-2_11",
+        "arxiv": null,
+        "abstract": "Abstract. Many organizations maintain knowledge graphs that are or-ganized according to ontologies. However, these ontologies are imple-mented in languages (e.g. OWL) that are difficult to understand by userswho are not familiar with knowledge representation techniques. In par-ticular, this affects web developers who want to develop ontology-basedapplications but may find challenging accessing ontology-based data inknowledge graphs through SPARQL queries. To address this problem, wepropose an accessible layer for ontology-based knowledge graphs throughREST APIs. We define a mapping specification between the Web On-tology Language (OWL) and the OpenAPI Specification (OAS) to pro-vide ontology-based API definitions in a language well-known to webdevelopers. Our mapping specification identifies key similarities betweenOWL and OAS and provides implementation guidelines and examples.We also developed a reference mapping implementation that automati-cally transforms OWL ontologies into OpenAPI specifications in a matterof seconds.Keywords: OWL · OpenAPI · REST API · ontologies1 IntroductionMany public and private organizations have adopted a knowledge-driven ap-proach to make publicly available their knowledge graphs. Ontologies [10] playa crucial role in this approach, as they describe the knowledge about a domainin an agreed and unambiguous manner; and they allow organizing data, ease itsreusability, and facilitate its interoperability. Ontologies are usually formalizedin the Web Ontology Language (OWL) [6], a W3C recommendation to representthe semantics of a domain in a machine-readable way. However, OWL has a steeplearning curve due its inherent complexity [12], and newcomers may get confusedwith the meaning of constraints, axioms or the Open World Assumption.This problem has become evident in the case of developers who have an in-terest in taking advantage of the data available in existing knowledge graphsbut are not used to Semantic Web technologies. Instead, developers are famil-iar with REST APIs as a resource-access way which hides details about the2 P. Espinoza-Arias et al.implementation of operations for resource management or how such resourceshave been described according to the data models. To describe APIs, severalInterface Description Languages have been defined to document their domain,functional and non-functional aspects. The OpenAPI Specification3 (OAS) is abroadly adopted de facto standard for describing REST APIs in a programminglanguage-agnostic interface. OAS allows both humans and computers to under-stand and interact with a remote service. Due to its wide adoption, OAS has abig community behind, wich has provided tools to allow developers to generateAPI documentation, server generation, mockup design, etc.In this paper we describe additional work in the direction of making ontology-based data available though REST APIs. We define a mapping specificationbetween OWL and OAS to facilitate the work of those who are interested inusing data represented by semantic technologies and have to face the challeng-ing task of developing ontology-based applications. Our mapping also aims toenhance adherence to the FAIR data principles [13] by facilitating: Findability,as it provides a template for finding types of available resources in knowledgegraphs; Accessibility because it allows translating the ontology to an interfacethat developers are used to; Interoperability because the mapping matches two",
+        "publication_date": "2020-01-01",
+        "authors": "Paola Espinoza-Arias, Daniel Garijo, Óscar Corcho",
+        "file_name": "20250512000450.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/mapping_owl_to_oas_2020/PDFs/20250512000450.pdf",
+        "pdf_link": "https://dgarijo.com/papers/mapping_owl_to_oas_2020.pdf"
+    }
+]

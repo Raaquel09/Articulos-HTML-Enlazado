@@ -113,11 +113,11 @@ En los ejemplos vamos a ejecutar los siguientes comandos:
 	
 ### 3 Unimos la informacion siguiente en un mismo fichero.json
 
-url_search_output.json correspondiente a cada documento
+- url_search_output.json correspondiente a cada documento
 
-Entrada correspondiente del bib
+- Entrada correspondiente del bib
 
-Campo "file_html" con una futa relativa al html creado por pdf2html
+- Campo "file_html" con una futa relativa al html creado por pdf2html
 
 
 El script unir.py necesita tres argumentos de entrada:

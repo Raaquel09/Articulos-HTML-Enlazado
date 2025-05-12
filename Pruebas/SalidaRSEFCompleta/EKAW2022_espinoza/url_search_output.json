@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Extending Ontology Engineering Practices to Facilitate Application Development",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/oeg-upm/oatapi",
+                "type": "git",
+                "paper_frequency": 4,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/EKAW2022_espinoza/PDFs/20250511235420.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "9 An API specification template we have developed is available in https://github.com/oeg-upm/oatapi/tree/main/Additional%20Resources 10 Espinoza-Arias et al."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-031-17105-5_2",
+        "abstract": "Abstract. Ontologies define data organization and meaning in Knowl-edge Graphs (KGs). However, ontologies have generally not been takeninto account when designing and generating Application ProgrammingInterfaces (APIs) to allow developers to consume KG data in a developer-friendly way. To fill this gap, this work proposes a method for API gener-ation based on the artefacts generated during the ontology developmentprocess. This method is described as part of a new phase, called ontologyexploitation, that may be included in the last stages of the traditionalontology development methodologies. Moreover, to support some of thetasks of the proposed method, we developed OATAPI, a tool that gen-erates APIs from two ontology artefacts: the competency questions andthe ontology serialization. The conclusions of this work reflect that thelimitations found in the state-of-the-art have been addressed both atthe methodological and tooling levels for the generation of APIs basedon ontology artefacts. Finally, the lines of future work present severalchallenges that need to be addressed so that the potential of KGs andontologies can be more easily exploited by application developers.Keywords: Ontology Engineering · Application Development · Appli-cation Programming Interface · Ontology Artefacts.1 IntroductionOver recent years, Knowledge Graphs (KGs) have been generated and adoptedby many organizations to integrate data, facilitate interoperability, and generatenew insights and recommendations. KGs are commonly structured according toontologies, which allow data to be unambiguously defined with a shared andagreed meaning, as well as to infer new knowledge. However, despite their adop-tion, KGs are still challenging to consume by application developers.On the one hand, developers face a production-consumption challenge: thereis a gap between the ontology engineers who design an ontology and may in-tervene in KG creation and the application developers who want to consumeits contents [7]. Ontologies may be complex, and the resources generated duringtheir development (use cases, requirements, etc.) are often not made available totheir users (e.g. application developers). As a result, developers usually need to2 Espinoza-Arias et al.duplicate some of the effort already done by ontology engineers when they wereunderstanding the domain, interacting with domain experts, taking modeling de-cisions, etc. On the other hand, application developers face technical challenges:many of them are not familiar with Semantic Web standards such as OWL andSPARQL, and hence those KGs that are exclusively based on Semantic Webtechnologies remain hardly accessible to them [18]. Developers (and in particu-lar application developers) are mostly used to data representation formats likeJSON and Application Programming Interfaces (APIs) for accessing data.In order to address both production-consumption and technical challenges,multiple approaches have been proposed by the Semantic Web community, rang-ing from Semantic RESTful APIs [15] which are compatible with Semantic Weband REST; to tools to create Web APIs on top of SPARQL endpoints [3, 12, 1,4]. Outside the Semantic Web community, approaches like GraphQL1 are gain-ing traction among developers due to their flexibility to query and retrieve datafrom public endpoints. However, generating APIs based on ontology artefactshas received less attention so far. These artefacts are any intermediate or finalresources generated during the ontology development process (e.g. competency",
+        "publication_date": "2022-01-01",
+        "authors": "Paola Espinoza-Arias, Daniel Garijo, Óscar Corcho",
+        "file_name": "20250511235420.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/EKAW2022_espinoza/PDFs/20250511235420.pdf",
+        "pdf_link": "https://dgarijo.com/papers/EKAW2022_espinoza.pdf"
+    }
+]

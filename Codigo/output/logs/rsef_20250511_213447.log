@@ -1,0 +1,6 @@
+2025-05-11 21:34:49,815:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 21:34:49,827:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/ro_crate_data_science/processed_metadata.json
+2025-05-11 21:34:49,843:INFO:Successfully opened JSON
+2025-05-11 21:34:49,843:INFO:Analyzing directionality for 10.3233/ds-210053
+2025-05-11 21:34:49,844:INFO:Checking bidirectional links
+2025-05-11 21:36:47,373:INFO:Already created a file: ../Pruebas/SalidaRSEF1/ro_crate_data_science/JSONs/ResearchObject_ro-crate-py.json

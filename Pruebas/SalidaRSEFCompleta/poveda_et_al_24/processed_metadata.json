@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Ontology Engineering and the FAIR principles: A Gap Analysis toward a FAIR-by-design methodology",
+        "implementation_urls": [
+            {
+                "identifier": "https://zenodo.org/records/10551054",
+                "type": "zenodo",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": null,
+        "arxiv": null,
+        "abstract": "AbstractOntologies and vocabularies play a key role when standardising, organizing and integrating data fromheterogeneous data sources into Knowledge Graphs. In order to develop ontologies, different engineeringmethodologies have been proposed throughout the years, whose application resulted in thousands ofsemantic artefacts (taxonomies, vocabularies and ontologies) in a wide range of domains. But how toensure that ontologies follow the Findable, Accessible, Interoperable and Reusable principles (FAIR) fromtheir inception? In this paper, we review existing guidelines to help make ontologies FAIR and mapthem to the ontology development lifecycle activities. Our analysis outlines the current gaps, where noguidelines exist for ontologies to become FAIRbyDesign.KeywordsOntology Engineering, FAIR principles, Semantic Artifacts, Ontologies, Vocabularies1. IntroductionOntologies and vocabularies play a key role in data integration by defining the structure, guidingthe construction, and validating Knowledge Graphs. Ontologies are widely used in multipledomains, ranging from Bioinformatics [1] and Astrophysics [2] to Smart Cities [3] or Webcontent annotation [4].A number of ontology engineering methodologies have been proposed by researchers throughthe years in order to build ontologies [5] [6] [7] [8] [9] [10] [11] [12] [13]. These methodologiesdefine the steps and activities needed to gather ontology requirements, discuss with domainexperts, reuse existing vocabularies, validate the results, etc. Among them, Linked Open TermsFOAM2024: FAIR principles for Ontologies and Metadata in Knowledge Management, July 15–19, 2024, Enschede,Netherlands∗Corresponding author.†These authors contributed equally.Envelope-Open m.poveda@upm.es (M. Poveda-Villalón); daniel.garijo@upm.es (D. Garijo);alejandra.gonzalez-beltran@stfc.ac.uk (A. N. Gonzalez-Beltran); clement.jonquet@inrae.fr (C. Jonquet);ylefranc@esciencefactory.com (Y. L. Franc)GLOBE https://agbeltran.github.io/ (A. N. Gonzalez-Beltran)Orcid 0000-0003-3587-0367 (M. Poveda-Villalón); 0000-0003-0454-7145 (D. Garijo); 0000-0003-3499-8262(A. N. Gonzalez-Beltran); 0000-0002-2404-1582 (C. Jonquet); 0000-0003-4631-418X (Y. L. Franc)© 2024 Copyright for this paper by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0).mailto:m.poveda@upm.esmailto:daniel.garijo@upm.esmailto:alejandra.gonzalez-beltran@stfc.ac.ukmailto:clement.jonquet@inrae.frmailto:ylefranc@esciencefactory.comhttps://agbeltran.github.io/https://orcid.org/0000-0003-3587-0367https://orcid.org/0000-0003-0454-7145https://orcid.org/0000-0003-3499-8262https://orcid.org/0000-0002-2404-1582https://orcid.org/0000-0003-4631-418Xhttps://creativecommons.org/licenses/by/4.0(LOT) [13] is the only one addressing an online publication and maintenance activity, key forsustaining the obtained results.With the growing adoption of the Findable, Accessible, Interoperable and Reusable (FAIR)principles for data [14], different efforts have proposed guidelines to apply FAIR in ontologiesand vocabularies [15] [16] [17] [18] [19]. However, no alignment between ontology developmentmethodologies and the guidelines/recommendations for FAIR ontologies has been developed",
+        "publication_date": "2024-07-15",
+        "authors": "María Poveda‐Villalón, Daniel Garijo, Alejandra González-Beltrán, Clément Jonquet, Yann Le Franc",
+        "file_name": "20250511232637.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/poveda_et_al_24/PDFs/20250511232637.pdf",
+        "pdf_link": "https://dgarijo.com/papers/poveda_et_al_24.pdf"
+    }
+]

@@ -1,0 +1,8 @@
+2025-05-11 16:35:58,985:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:35:58,996:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/aaai2017/processed_metadata.json
+2025-05-11 16:35:59,009:INFO:Successfully opened JSON
+2025-05-11 16:35:59,009:INFO:Analyzing directionality for 10.1609/aaai.v31i1.11157
+2025-05-11 16:35:59,010:INFO:Checking bidirectional links
+2025-05-11 16:36:10,386:INFO:Checking unidirectional links
+2025-05-11 16:36:25,205:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/aaai2017/url_search_output.json
+2025-05-11 16:36:25,222:INFO:Output saved to: ../Pruebas/SalidaRSEF1/aaai2017/url_search_output.json

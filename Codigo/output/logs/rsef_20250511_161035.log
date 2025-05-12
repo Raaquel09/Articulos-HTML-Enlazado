@@ -1,0 +1,8 @@
+2025-05-11 16:10:35,623:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:10:35,631:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/nine_best_practices/processed_metadata.json
+2025-05-11 16:10:35,645:INFO:Successfully opened JSON
+2025-05-11 16:10:35,646:INFO:Analyzing directionality for 10.7717/peerj-cs.1023
+2025-05-11 16:10:35,646:INFO:Checking bidirectional links
+2025-05-11 16:11:39,120:INFO:Checking unidirectional links
+2025-05-11 16:12:05,985:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/nine_best_practices/url_search_output.json
+2025-05-11 16:12:06,005:INFO:Output saved to: ../Pruebas/SalidaRSEF1/nine_best_practices/url_search_output.json

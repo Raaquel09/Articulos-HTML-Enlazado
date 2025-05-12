@@ -1,0 +1,8 @@
+2025-05-12 00:10:21,982:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:10:21,993:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/prov-bench-paper/processed_metadata.json
+2025-05-12 00:10:22,005:INFO:Successfully opened JSON
+2025-05-12 00:10:22,005:INFO:Analyzing directionality for 10.1145/2457317.2457376
+2025-05-12 00:10:22,005:INFO:Checking bidirectional links
+2025-05-12 00:11:02,604:INFO:Checking unidirectional links
+2025-05-12 00:11:05,136:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/prov-bench-paper/url_search_output.json
+2025-05-12 00:11:05,151:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/prov-bench-paper/url_search_output.json

@@ -1,0 +1,7 @@
+2025-05-12 00:10:08,547:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:10:08,559:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/meteo/processed_metadata.json
+2025-05-12 00:10:08,572:INFO:Successfully opened JSON
+2025-05-12 00:10:08,572:INFO:Analyzing directionality for 10.3233/sw-120089
+2025-05-12 00:10:08,573:INFO:No implementation URLs present in the paper object!
+2025-05-12 00:10:08,583:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/meteo/url_search_output.json
+2025-05-12 00:10:08,592:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/meteo/url_search_output.json

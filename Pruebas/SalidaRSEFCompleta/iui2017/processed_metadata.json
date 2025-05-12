@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Towards Automating Data Narratives",
+        "implementation_urls": [
+            {
+                "identifier": "http://doi.org/10.5281/zenodo.234660",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "http://doi.org/10.5281/zenodo.234648",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "http://doi.org/10.5281/zenodo.232075",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1145/3025171.3025193",
+        "arxiv": null,
+        "abstract": "ABSTRACT  We propose a new area of research on automating data narratives. Data narratives are containers of information about computationally generated research findings. They have three major components: 1) A record of events, that describe a new result through a workflow and/or provenance of all the computations executed; 2) Persistent entries for key entities involved for data, software versions, and workflows; 3) A set of narrative accounts that are automatically generated human-consumable renderings of the record and entities and can be included in a paper. Different narrative accounts can be used for different audiences with different content and details, based on the level of interest or expertise of the reader. Data narratives can make science more transparent and reproducible, because they ensure that the text description of the computational experiment reflects with high fidelity what was actually done. Data narratives can be incorporated in papers, either in the methods section or as supplementary materials. We introduce DANA, a prototype that illustrates how to generate data narratives automatically, and describe the information it uses from the computational records. We also present a formative evaluation of our approach and discuss potential uses of automated data narratives. Author Keywords Reproducibility; computational workflows; semantic workflows; WINGS; data narratives; explanation ACM Classification Keywords H.5.3. Information interfaces and presentation (e.g., HCI): Group and organization interfaces. INTRODUCTION The reproducibility of published scientific research has received significant attention [48]. For computational experiments, published papers often provide insufficient information about the data, protocols, software, and overall method used to obtain the new results [53]. A major challenge in reproducibility is the lack of appropriate support for authors to capture exactly how experiments were performed. Once the work is finished, authors write an account in their articles by retrospective reconstruction of the work that was actually done, relying on their memory and notes kept along the way. For research carried out in the field or laboratory, tracking accurately what was done can require discipline and effort. But why should reproducibility be challenging for computational experiments, when we have the infrastructure to capture accurately the computations that were carried out? We should have automated tools that ensure that the descriptions that are written about computational experiments are in fact accurate and provide enough detail for transparency and reproducibility. In this paper, we propose data narratives as a new approach to automatically generate text to describe computational analyses. ",
+        "publication_date": "2017-03-07",
+        "authors": "Yolanda Gil, Daniel Garijo",
+        "file_name": "20250512001643.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/iui2017/PDFs/20250512001643.pdf",
+        "pdf_link": "https://dgarijo.com/papers/iui2017.pdf"
+    }
+]

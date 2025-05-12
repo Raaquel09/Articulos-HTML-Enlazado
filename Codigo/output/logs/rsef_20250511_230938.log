@@ -1,0 +1,5 @@
+2025-05-11 23:09:38,990:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:09:39,027:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFBasica/swj_arenas_2024/processed_metadata.json
+2025-05-11 23:09:39,095:INFO:Successfully opened JSON
+2025-05-11 23:09:39,131:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFBasica/swj_arenas_2024/url_search_output.json
+2025-05-11 23:09:39,213:INFO:Output saved to: ../Pruebas/SalidaRSEFBasica/swj_arenas_2024/url_search_output.json

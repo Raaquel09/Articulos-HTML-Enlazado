@@ -1,0 +1,8 @@
+2025-05-11 16:25:17,955:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:25:17,965:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/nine_best_2020/processed_metadata.json
+2025-05-11 16:25:17,981:INFO:Successfully opened JSON
+2025-05-11 16:25:17,981:INFO:Analyzing directionality for 2012.13117
+2025-05-11 16:25:17,982:INFO:Checking bidirectional links
+2025-05-11 16:25:58,121:INFO:Checking unidirectional links
+2025-05-11 16:26:02,080:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/nine_best_2020/url_search_output.json
+2025-05-11 16:26:02,099:INFO:Output saved to: ../Pruebas/SalidaRSEF1/nine_best_2020/url_search_output.json

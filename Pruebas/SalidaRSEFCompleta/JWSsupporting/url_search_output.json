@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Automating ontology engineering support activities with OnToology",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/OnToology/OnToology",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/JWSsupporting/PDFs/20250512002902.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "OnToology is available as a web service, and its code has been released online [17]."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1016/j.websem.2018.09.003",
+        "abstract": "AbstractDue to the increasing uptake of semantic technologies, ontologies are now part of a good number of informa-tion systems. As a result, software development teams that have to combine ontology engineering activitieswith software development practices are facing several challenges, since these two areas have evolved, in gen-eral, separately. In this paper we present OnToology, an approach to manage ontology engineering supportactivities (i.e., documentation, evaluation, releasing and versioning). OnToology is a web-based applicationthat builds on top of Git-based environments and integrates existing semantic web technologies. We havevalidated OnToology against a set of representative requirements for ontology development support activitiesin distributed environments, and report on a survey of the system to assess its usefulness and usability.Keywords: ontology engineering, ontology evaluation, ontology documentation, ontology publication1. IntroductionSince the late 1990s, several ontology engineeringmethodologies have been proposed to transform theart of developing ontologies into an engineering ac-tivity. Methodologies such as METHONTOLOGY[1], On-To-Knowledge [2] and the NeOn Methodol-ogy [3] define clear guidelines, processes, activitiesand life cycles to guide ontology development.Now that ontologies are being increasinglyadopted in information systems, it is clear that on-tology development tasks may also benefit from theapplication of common software engineering prac-tices. Most of the ontology development supportactivities, such as documentation, visualization andevaluation, are usually performed individually, exe-cuting heterogeneous tools that make these activi-ties cumbersome and time consuming. In addition,maintaining and keeping track of the generated re-Email addresses: aalobaid@fi.upm.es (AhmadAlobaid), dgarijo@isi.edu (Daniel Garijo),mpoveda@fi.upm.es (Maŕıa Poveda-Villalón),isantana@fi.upm.es (Idafen Santana-Pérez),albafernandez@fi.upm.es (Alba Fernández-Izquierdo),ocorcho@fi.upm.es (Oscar Corcho)sources for each version of an ontology has becomea challenge for ontology developers.The ontology engineering community has alreadyshown progress towards adapting ontology develop-ment to agile software development methodologies[4, 5, 6]; as well as supporting collaborative ontol-ogy development throughout the use of common-practice software engineering tools [7, 8]. In fact,it is now common among ontology developers touse Git-based environments [9] such as GitHub1(usual in software development) for keeping trackof ontology revisions. However, existing approachespresent either partial solutions; require specializedskills that complicate their adoption (e.g., complexinstallation setup); or produce their outcome usingidiosyncratic formats that are difficult to integrate",
+        "publication_date": "2018-10-09",
+        "authors": "Ahmad Alobaid, Daniel Garijo, María Poveda‐Villalón, Idafen Santana-Pérez, Alba Fernández-Izquierdo, Óscar Corcho",
+        "file_name": "20250512002902.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/JWSsupporting/PDFs/20250512002902.pdf",
+        "pdf_link": "https://dgarijo.com/papers/JWSsupporting.pdf"
+    }
+]

@@ -1,0 +1,5 @@
+2025-05-12 00:17:28,503:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:17:28,516:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/aibuzzword2017/processed_metadata.json
+2025-05-12 00:17:28,528:INFO:Successfully opened JSON
+2025-05-12 00:17:28,538:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/aibuzzword2017/url_search_output.json
+2025-05-12 00:17:28,547:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/aibuzzword2017/url_search_output.json

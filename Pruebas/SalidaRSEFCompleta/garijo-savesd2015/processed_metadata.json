@@ -1,0 +1,29 @@
+[
+    {
+        "title": "LDP4ROs: Managing Research Objects with the W3C Linked Data Platform",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/oeg-upm/LDP4RO",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": null,
+        "arxiv": null,
+        "abstract": "ABSTRACTIn this demo we present LDP4ROs, a prototype implemen-tation that allows creating, browsing and updating ResearchObjects (ROs) and their contents using typical HTTP oper-ations. This is achieved by aligning the RO model with theW3C Linked Data Platform (LDP).KeywordsLinked Data Platform, Research Object, LDP, RO1. INTRODUCTIONIt is widely recognised that raw PDF files are usually insuf-ficient to allow researchers to check, reuse and reproduce themethods exposed in scientific publications1. In this context,the Research Object model (RO) [1] has been proposed as apossible means to aggregate, link and describe the resources(e.g., code, scripts, datasets and references to them) associ-ated to scientific publications, what may help (although notnecessarily solve completely) these tasks.Different applications have been developed to create, man-age and access ROs2 [4]. However, they rely on custom ser-vices and APIs, making it difficult to access, edit or createsome of their resources and contents using standard HTTPoperations, affecting interoperability among them.In this demo we present LDP4ROs3, a prototype imple-mentation of our alternative approach to create, access andupdate ROs and their associated resources, which considersthem as Web objects. For this purpose we align the ROmodel to the W3C Linked Data Platform (LDP) [5]. Withour approach, one can create, edit or access resources asLinked Data using standard HTTP operations (e.g., GETplus content negotiation) instead of using SPARQL or cus-tom REST APIs.1https://www.force11.org/beyondthepdf22http://www.researchobject.org/specifications/3https://github.com/oeg-upm/LDP4ROPermission to make digital or hard copies of all or part of this work forpersonal or classroom use is granted without fee provided that copies arenot made or distributed for profit or commercial advantage and that copiesbear this notice and the full citation on the first page. To copy otherwise, torepublish, to post on servers or to redistribute to lists, requires prior specificpermission and/or a fee.SAVE-SD 2015 WWW, Florence, ItalyCopyright 20XX ACM X-XXXXX-XX-X/XX/XX ...$15.00.Section 2 describes the alignment between LDP and theRO model, Section 3 describes our working prototype andSection 4 discusses future work.2. ALIGNING LDP WITH THE RO MODELThis section describes the mapping between ROs to LDPconcepts. First we describe the main features of these mod-els (Sections 2.1 and 2.2) and then we illustrate the resultsof the mapping with a simple example (Section 2.3).",
+        "publication_date": null,
+        "authors": "",
+        "file_name": "20250512001315.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/garijo-savesd2015/PDFs/20250512001315.pdf",
+        "pdf_link": "https://dgarijo.com/papers/garijo-savesd2015.pdf"
+    }
+]

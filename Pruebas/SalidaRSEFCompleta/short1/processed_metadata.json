@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Linking Abstract Plans of Scientific Experiments to their Corresponding Execution Traces",
+        "implementation_urls": [
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.1966881",
+                "type": "zenodo",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": null,
+        "arxiv": null,
+        "abstract": null,
+        "publication_date": "2019-10-21",
+        "authors": "Milan Marković, Daniel Garijo, Peter Edwards",
+        "file_name": "20250512002835.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/short1/PDFs/20250512002835.pdf",
+        "pdf_link": "http://ceur-ws.org/Vol-2526/short1.pdf"
+    }
+]

@@ -1,0 +1,5 @@
+2025-05-11 23:48:16,313:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:48:16,325:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/ISWC2023_demo_softalias/processed_metadata.json
+2025-05-11 23:48:16,339:INFO:Successfully opened JSON
+2025-05-11 23:48:16,346:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/ISWC2023_demo_softalias/url_search_output.json
+2025-05-11 23:48:16,366:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/ISWC2023_demo_softalias/url_search_output.json

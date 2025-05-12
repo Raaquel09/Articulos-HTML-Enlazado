@@ -1,0 +1,8 @@
+2025-05-12 00:31:46,579:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:31:46,589:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/genetic_architecture_of_the_human_cerebral_cor/processed_metadata.json
+2025-05-12 00:31:46,603:INFO:Successfully opened JSON
+2025-05-12 00:31:46,603:INFO:Analyzing directionality for 10.1126/science.aay6690
+2025-05-12 00:31:46,604:INFO:Checking bidirectional links
+2025-05-12 00:31:56,740:INFO:Checking unidirectional links
+2025-05-12 00:33:02,932:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/genetic_architecture_of_the_human_cerebral_cor/url_search_output.json
+2025-05-12 00:33:02,950:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/genetic_architecture_of_the_human_cerebral_cor/url_search_output.json

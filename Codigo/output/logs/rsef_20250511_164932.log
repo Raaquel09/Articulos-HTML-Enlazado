@@ -1,0 +1,7 @@
+2025-05-11 16:49:32,228:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:49:32,238:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/paper1/processed_metadata.json
+2025-05-11 16:49:32,251:INFO:Successfully opened JSON
+2025-05-11 16:49:32,251:INFO:Analyzing directionality for 10.48550/arxiv.2009.10263
+2025-05-11 16:49:32,252:INFO:No implementation URLs present in the paper object!
+2025-05-11 16:49:32,264:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/paper1/url_search_output.json
+2025-05-11 16:49:32,274:INFO:Output saved to: ../Pruebas/SalidaRSEF1/paper1/url_search_output.json

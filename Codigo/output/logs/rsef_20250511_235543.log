@@ -1,0 +1,5 @@
+2025-05-11 23:55:43,746:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:55:43,755:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/FAIR4RS_2022/processed_metadata.json
+2025-05-11 23:55:43,767:INFO:Successfully opened JSON
+2025-05-11 23:55:43,775:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/FAIR4RS_2022/url_search_output.json
+2025-05-11 23:55:43,790:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/FAIR4RS_2022/url_search_output.json

@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Nine best practices for research software registries and repositories",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/force11/force11-sciwg",
+                "type": "git",
+                "paper_frequency": 6,
+                "extraction_methods": [
+                    {
+                        "type": "bidir",
+                        "location": "CITATION_README",
+                        "location_type": "TITLE",
+                        "source": "SOMEF"
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/codemeta/codemeta",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/nine_best_practices/PDFs/20250511234951.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "Available at https://github.com/codemeta/codemeta."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.7717/peerj-cs.1023",
+        "abstract": "ABSTRACTScientific software registries and repositories improve software findability andresearch transparency, provide information for software citations, and fosterpreservation of computational methods in a wide range of disciplines. Registries andrepositories play a critical role by supporting research reproducibility andreplicability, but developing them takes effort and few guidelines are available to helpprospective creators of these resources. To address this need, the FORCE11 SoftwareCitation Implementation Working Group convened a Task Force to distill theexperiences of the managers of existing resources in setting expectations for allstakeholders. In this article, we describe the resultant best practices which includedefining the scope, policies, and rules that govern individual registries andrepositories, along with the background, examples, and collaborative work that wentinto their development. We believe that establishing specific policies such as thosepresented here will help other scientific software registries and repositories betterserve their users and their disciplines.Subjects Computer Education, Databases, Digital LibrariesKeywords Best practices, Research software repository, Research software registry, Softwaremetadata, Repository policies, Research software registry guidelinesINTRODUCTIONResearch software is an essential constituent in scientific investigations (Wilson et al., 2014;Momcheva & Tollerud, 2015; Hettrick, 2018; Lamprecht et al., 2020), as it is often used totransform and prepare data, perform novel analyses on data, automate manual processes,and visualize results reported in scientific publications (Howison & Herbsleb, 2011).Research software is thus crucial for reproducibility and has been recognized by thescientific community as a research product in its own right—one that should be properlydescribed, accessible, and credited by others (Smith, Katz & Niemeyer, 2016; Chue Honget al., 2021). As a result of the increasing importance of computational methods,communities such as Research Data Alliance (RDA) (Berman & Crosas, 2020) (https://www.rd-alliance.org/) and FORCE11 (Bourne et al., 2012) (https://www.force11.org/)How to cite this article Garijo D, Ménager H, Hwang L, Trisovic A, Hucka M, Morrell T, Allen A. et al., 2022. Nine best practices forresearch software registries and repositories. PeerJ Comput. Sci. 8:e1023 DOI 10.7717/peerj-cs.1023Submitted 28 September 2021Accepted 9 June 2022Published 8 August 2022Corresponding authorDaniel Garijo, daniel.garijo@upm.esAcademic editorVarun GuptaAdditional Information andDeclarations can be found onpage 24DOI 10.7717/peerj-cs.1023Copyright2022 Garijo et al.Distributed underCreative Commons CC-BY 4.0https://github.com/force11/force11-sciwghttps://github.com/force11/force11-sciwghttps://www.rd-alliance.org/https://www.rd-alliance.org/",
+        "publication_date": "2022-08-08",
+        "authors": "Daniel Garijo, Hervé Ménager, Lorraine Hwang, A. Trisovic, Michael Hucka, Thomas E. Morrell, Alice Allen",
+        "file_name": "20250511234951.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/nine_best_practices/PDFs/20250511234951.pdf",
+        "pdf_link": "https://dgarijo.com/papers/nine_best_practices.pdf"
+    }
+]

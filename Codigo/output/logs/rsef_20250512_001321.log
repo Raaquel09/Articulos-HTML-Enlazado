@@ -1,0 +1,5 @@
+2025-05-12 00:13:21,727:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:13:21,739:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/garijo-savesd2015/processed_metadata.json
+2025-05-12 00:13:21,753:INFO:Successfully opened JSON
+2025-05-12 00:13:21,761:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/garijo-savesd2015/url_search_output.json
+2025-05-12 00:13:21,780:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/garijo-savesd2015/url_search_output.json

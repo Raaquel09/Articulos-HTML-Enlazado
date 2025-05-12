@@ -1,0 +1,5 @@
+2025-05-11 21:33:09,176:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 21:33:09,188:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/El_Hounsri_MSR_2025_landscape_analysis_CR/processed_metadata.json
+2025-05-11 21:33:09,202:INFO:Successfully opened JSON
+2025-05-11 21:33:09,212:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/El_Hounsri_MSR_2025_landscape_analysis_CR/url_search_output.json
+2025-05-11 21:33:09,227:INFO:Output saved to: ../Pruebas/SalidaRSEF1/El_Hounsri_MSR_2025_landscape_analysis_CR/url_search_output.json

@@ -1,0 +1,8 @@
+2025-05-11 16:16:58,782:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:16:58,794:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/paper-4/processed_metadata.json
+2025-05-11 16:16:58,809:INFO:Successfully opened JSON
+2025-05-11 16:16:58,809:INFO:Analyzing directionality for 10.48550/arxiv.2108.07119
+2025-05-11 16:16:58,809:INFO:Checking bidirectional links
+2025-05-11 16:17:35,742:INFO:Checking unidirectional links
+2025-05-11 16:17:43,496:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/paper-4/url_search_output.json
+2025-05-11 16:17:43,526:INFO:Output saved to: ../Pruebas/SalidaRSEF1/paper-4/url_search_output.json

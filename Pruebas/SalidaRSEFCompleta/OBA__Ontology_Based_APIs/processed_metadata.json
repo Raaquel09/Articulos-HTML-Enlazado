@@ -1,0 +1,183 @@
+[
+    {
+        "title": "OBA: An Ontology-Based Framework for Creating REST APIs for Knowledge Graphs",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/OAI/OpenAPI-Specification",
+                "type": "git",
+                "paper_frequency": 5,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/usc-isi-i2/sparql-jsonld",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/sirspock/dbpedia_example",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/sirspock/dbpedia_api_client",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/opencitations/ramose",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/oeg-upm/r4r",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/hammar/owl2oas",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/dbooth-boston/EasierRDF",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/OpenAPITools/openapi-generator",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/KnowledgeCaptureAndDiscovery/OBA_sparql",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/KnowledgeCaptureAndDiscovery/OBA",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.3686266",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-030-62466-8_4",
+        "arxiv": "2007.09206",
+        "abstract": "Abstract. In recent years, Semantic Web technologies have been in-creasingly adopted by researchers, industry and public institutions todescribe and link data on the Web, create web annotations and consumelarge knowledge graphs like Wikidata and DBpedia. However, there isstill a knowledge gap between ontology engineers, who design, popu-late and create knowledge graphs; and web developers, who need tounderstand, access and query these knowledge graphs but are not fa-miliar with ontologies, RDF or SPARQL. In this paper we describe theOntology-Based APIs framework (OBA), our approach to automaticallycreate REST APIs from ontologies while following RESTful API bestpractices. Given an ontology (or ontology network) OBA uses standardtechnologies familiar to web developers (OpenAPI Specification, JSON)and combines them with W3C standards (OWL, JSON-LD frames andSPARQL) to create maintainable APIs with documentation, unit tests,automated validation of resources and clients (in Python, Javascript,etc.) for non Semantic Web experts to access the contents of a targetknowledge graph. We showcase OBA with three examples that illustratethe capabilities of the framework for different ontologies.Resource type: SoftwareLicense: Apache 2.0DOI: https://doi.org/10.5281/zenodo.3686266Repository: https://github.com/KnowledgeCaptureAndDiscovery/OBA/Keywords: Ontology · API · REST · JSON · JSON-LD · data accessi-bility · knowledge graph · OpenAPI · OAS.1 IntroductionKnowledge graphs have become a popular technology for representing structuredinformation on the Web. The Linked Open Data Cloud1 contains more than1200 linked knowledge graphs contributed by researchers and public institutions.Major companies like Google,2 Microsoft,3 or Amazon [16] use knowledge graphs1https://lod-cloud.net/2https://developers.google.com/knowledge-graph3https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/https://lod-cloud.net/https://developers.google.com/knowledge-graphhttps://www.microsoft.com/en-us/research/project/microsoft-academic-graph/https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/2 Daniel Garijo and Maximiliano Osorioto represent some of their information. Recently, crowdsourced knowledge graphssuch as Wikidata [15] have surpassed Wikipedia in the number of contributionsmade by users.In order to create and structure these knowledge graphs, ontology engineersdevelop vocabularies and ontologies defining the semantics of the classes, objectproperties and data properties represented in the data. These ontologies are thenused in extraction-transform-load pipelines to populate knowledge graphs withdata and make the result accessible on the Web to be queried by users (usually asan RDF dump or a SPARQL endpoint). However, consuming and contributingto knowledge graphs exposed in this manner is problematic for two main reasons.First, exploring and using the contents of a knowledge graph is a time consumingtask, even for experienced ontology engineers (common problems include lack",
+        "publication_date": "2020-01-01",
+        "authors": "Daniel Garijo, Maximiliano Osorio",
+        "file_name": "20250512002002.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/OBA__Ontology_Based_APIs/PDFs/20250512002002.pdf",
+        "pdf_link": "https://dgarijo.com/papers/OBA__Ontology_Based_APIs.pdf"
+    }
+]

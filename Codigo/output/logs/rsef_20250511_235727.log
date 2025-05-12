@@ -1,0 +1,31 @@
+2025-05-11 23:57:30,219:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:57:30,229:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/processed_metadata.json
+2025-05-11 23:57:30,245:INFO:Successfully opened JSON
+2025-05-11 23:57:30,245:INFO:Analyzing directionality for 10.3233/ds-210053
+2025-05-11 23:57:30,246:INFO:Checking bidirectional links
+2025-05-11 23:59:24,771:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/ResearchObject_ro-crate-py.json
+2025-05-12 00:00:05,252:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/duraspace_pcdm.json
+2025-05-12 00:00:27,174:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/ESIPFed_science-on-schema.org.json
+2025-05-12 00:00:27,631:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/duraspace_pcdm.json
+2025-05-12 00:00:27,640:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/ResearchObject_ro-crate.json
+2025-05-12 00:00:37,244:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/duraspace_pcdm.json
+2025-05-12 00:00:37,253:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/ResearchObject_ro-crate.json
+2025-05-12 00:00:37,745:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/researchobject_ro-crate.json
+2025-05-12 00:01:13,814:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/UTS-eResearch_DataCrate.json
+2025-05-12 00:01:14,244:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/ResearchObject_ro-crate.json
+2025-05-12 00:01:14,254:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/Finn-Lab_MGS-gut.json
+2025-05-12 00:01:14,269:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/workflowhub-eu_galaxy2cwl.json
+2025-05-12 00:01:14,281:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/researchobject_ro-crate-py.json
+2025-05-12 00:01:14,294:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/researchobject_ro-crate.json
+2025-05-12 00:01:19,832:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/e11938258_RO-Crates-and-Excel.json
+2025-05-12 00:01:19,924:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/duraspace_pcdm.json
+2025-05-12 00:01:19,935:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/UTS-eResearch_ro-crate-js.json
+2025-05-12 00:01:27,901:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/ResearchObject_ro-crate-ruby.json
+2025-05-12 00:01:27,910:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/KockataEPich_CheckMyCrate.json
+2025-05-12 00:01:27,929:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/GhaithArf_ro-crate-rda-madmp-mapper.json
+2025-05-12 00:01:39,704:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/CoEDL_ocfl-tools.json
+2025-05-12 00:01:39,717:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/CoEDL_modpdsc.json
+2025-05-12 00:01:39,729:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/JSONs/BrennerG_Ro-Crate_2_ma-DMP.json
+2025-05-12 00:01:50,576:INFO:Checking unidirectional links
+2025-05-12 00:02:29,173:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/url_search_output.json
+2025-05-12 00:02:29,194:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/ro_crate_data_science/url_search_output.json

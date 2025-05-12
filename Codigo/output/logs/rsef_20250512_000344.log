@@ -1,0 +1,8 @@
+2025-05-12 00:03:47,711:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:03:47,719:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/MINT-tiis/processed_metadata.json
+2025-05-12 00:03:47,733:INFO:Successfully opened JSON
+2025-05-12 00:03:47,733:INFO:Analyzing directionality for 10.1145/3453172
+2025-05-12 00:03:47,734:INFO:Checking bidirectional links
+2025-05-12 00:03:56,033:INFO:Checking unidirectional links
+2025-05-12 00:04:44,613:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/MINT-tiis/url_search_output.json
+2025-05-12 00:04:44,631:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/MINT-tiis/url_search_output.json

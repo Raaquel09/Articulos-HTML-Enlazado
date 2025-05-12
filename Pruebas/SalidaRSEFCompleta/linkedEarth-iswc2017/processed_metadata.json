@@ -1,0 +1,57 @@
+[
+    {
+        "title": "A Controlled Crowdsourcing Approach for Practical Ontology Extensions and Metadata Annotations",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/LinkedEarth/Ontology",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/nickmckay/GeoChronR",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "http://doi.org/10.5281/zenodo.579646",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-319-68204-4_24",
+        "arxiv": null,
+        "abstract": "Abstract Traditional approaches to ontology development have a large lapse between the time when a user using the ontology has found a need to extend it and the time when it does get extended. For scientists, this delay can be weeks or months and can be a significant barrier for adoption. We present a new ap-proach to ontology development and data annotation enabling users to add new metadata properties on the fly as they describe their datasets, creating terms that can be immediately adopted by others and eventually become standardized. This approach combines a traditional, consensus-based approach to ontology development, and a crowdsourced approach where expert users (the crowd) can dynamically add terms as needed to support their work. We have implemented this approach as a socio-technical system that includes: 1) a crowdsourcing plat-form to support metadata annotation and addition of new terms, 2) a range of social editorial processes to make standardization decisions for those new terms, and 3) a framework for ontology revision and updates to the metadata created with the previous version of the ontology. We present a prototype im-plementation for the paleoclimate community, the Linked Earth Framework, currently containing 700 datasets and engaging over 50 active contributors. Us-ers exploit the platform to do science while extending the metadata vocabulary, thereby producing useful and practical metadata. Keywords: Metadata, crowdsourcing, semantic wiki, collaborative ontology engineering, semantic science, incremental vocabulary development. 1 Introduction Existing frameworks for collaborative ontology development assume a clearly phased separation between ontology creation, release of the ontology, and use of the ontology [12, 8, 25]. These frameworks do not fit many areas of science, notably field-based sciences like ecology, Earth, and environmental sciences. These areas are extremely diverse, with data collected by many individual scientists each with idiosyncratic 2 instruments, methodologies, representations, and requirements. As soon as an ontolo-gy is put to the test through practical use, we can anticipate the need for many addi-tions and extensions to accommodate that diversity. Therefore, an ontology would need to be part of a framework that supports constant change while being used. More-over, the involvement of diverse experts in the community would be needed, raising challenges about incentives and more importantly about coordination of requirements.  Our goal is to support the paleoclimate community, which studies past climate based on the imprint on various systems like trees, glacier ice, or lake sediments. This community employs such a diverse array of data collection and analytical techniques that it has been very challenging to develop shared ontologies. As a result, it is hard to find and aggregate datasets contributed by diverse scientists to paint a global picture of past climate change. Many other scientific communities face similar challenges, as do any organizations with highly heterogeneous or dynamic knowledge environments. We propose a new approach to ontology development based on controlled crowdsourcing. Users (the crowd, who are experts in the domain rather than generic workers) concurrently create new terms as needed to describe their data, making the terms immediately available to others. Once the new terms are agreed upon, they can become part of the next version of the ontology. To coordinate the growth of the on-tology and to create necessary incentives, we organize the community so that proper editorial control is exercised. We have implemented this approach in the Linked Earth Framework and deployed it for the paleoclimate community. The Linked Earth Framework is a socio-technical system that includes a crowdsource annotation plat-",
+        "publication_date": "2017-01-01",
+        "authors": "Yolanda Gil, Daniel Garijo, Varun Ratnakar, Deborah Khider, Julien Emile‐Geay, Nicholas P. McKay",
+        "file_name": "20250512001842.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/linkedEarth-iswc2017/PDFs/20250512001842.pdf",
+        "pdf_link": "https://dgarijo.com/papers/linkedEarth-iswc2017.pdf"
+    }
+]

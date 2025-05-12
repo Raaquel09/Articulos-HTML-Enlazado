@@ -1,0 +1,14 @@
+[
+    {
+        "title": "A New Approach for Publishing Workflows: Abstractions, Standards, and Linked Data",
+        "implementation_urls": [],
+        "doi": null,
+        "arxiv": null,
+        "abstract": "Abstractions, Standards, and Linked Data  Daniel Garijo OEG-DIA Facultad de Informática Universidad Politécnica de Madrid dgarijo@delicias.dia.fi.upm.es Yolanda Gil Information Sciences Institute University of Southern California 4676 Admiralty Way Marina del Rey, CA 90292 gil@isi.edu  ABSTRACT In recent years, a variety of systems have been developed that export the workflows used to analyze data and make them part of published articles. We argue that the workflows that are published in current approaches are dependent on the specific codes used for execution, the specific workflow system used, and the specific workflow catalogs where they are published. In this paper, we describe a new approach that addresses these shortcomings and makes workflows more reusable through: 1) the use of abstract workflows to complement executable workflows to make them reusable when the execution environment is different, 2) the publication of both abstract and executable workflows using standards such as the Open Provenance Model that can be imported by other workflow systems, 3) the publication of workflows as Linked Data that results in open web accessible workflow repositories. We illustrate this approach using a complex workflow that we re-created from an influential publication that describes the generation of ‘drugomes’. Categories and Subject Descriptors C. Computer systems organization, D.2 Software engineering, D.2.10 Design. General Terms Documentation, Performance, Design, Standardization. Keywords Workflows, provenance, OPM, Wings, reproducibility. 1. INTRODUCTION Scientific workflows are products of research and should be treated as first-class citizens in cyberinfrastructure [9]. Workflows represent computations carried out to obtain scientific results, but these computations are only described in the narrative of published scientific articles and only at a very high level. Scientific articles describe computational methods informally, often requiring a significant effort from others to reproduce and to reuse. The reproducibility process can be so costly that it has been referred to as “forensic” research [1]. Studies have shown that reproducibility is not achievable from the article itself, even when datasets are published [3], [15]. Retractions of publications do ",
+        "publication_date": null,
+        "authors": "",
+        "file_name": "20250512000825.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/works11/PDFs/20250512000825.pdf",
+        "pdf_link": "https://dgarijo.com/papers/works11.pdf"
+    }
+]

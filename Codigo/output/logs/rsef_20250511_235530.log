@@ -1,0 +1,5 @@
+2025-05-11 23:55:30,460:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:55:30,469:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/inspect4py_MSR2022/processed_metadata.json
+2025-05-11 23:55:30,484:INFO:Successfully opened JSON
+2025-05-11 23:55:30,491:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/inspect4py_MSR2022/url_search_output.json
+2025-05-11 23:55:30,509:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/inspect4py_MSR2022/url_search_output.json

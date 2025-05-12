@@ -1,0 +1,8 @@
+2025-05-12 00:26:07,842:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:26:07,850:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/EKAW2020_Coming_to_Terms_with_FAIR_Ontologies/processed_metadata.json
+2025-05-12 00:26:07,868:INFO:Successfully opened JSON
+2025-05-12 00:26:07,868:INFO:Analyzing directionality for 10.1007/978-3-030-61244-3_18
+2025-05-12 00:26:07,869:INFO:Checking bidirectional links
+2025-05-12 00:26:08,787:INFO:Checking unidirectional links
+2025-05-12 00:26:21,541:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/EKAW2020_Coming_to_Terms_with_FAIR_Ontologies/url_search_output.json
+2025-05-12 00:26:21,557:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/EKAW2020_Coming_to_Terms_with_FAIR_Ontologies/url_search_output.json

@@ -1,0 +1,45 @@
+[
+    {
+        "title": "FAIROs: Towards FAIR Assessment in Research Objects",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/oeg-upm/FAIR-Research-Object",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "bidir",
+                        "location": "README_BIBTEX",
+                        "location_type": "DOI",
+                        "source": "SOMEF"
+                    },
+                    {
+                        "type": "bidir",
+                        "location": "README_TEXT",
+                        "location_type": "DOI",
+                        "source": "SOMEF"
+                    },
+                    {
+                        "type": "bidir",
+                        "location": "CITATION_README",
+                        "location_type": "TITLE",
+                        "source": "SOMEF"
+                    },
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/TPDL2022_gonzalez/PDFs/20250511235137.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "FAIROs is open source and available on GitHub 8."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-031-16802-4_6",
+        "abstract": "Abstract. The FAIR principles have become a popular means to guideresearchers when publishing their research outputs (i.e., data, soft-ware, etc.) in a Findable, Accessible, Interoperable and Reusable man-ner. In order to ease compliance with FAIR, different frameworks havebeen developed by the scientific community, offering guidance and sug-gestions to researchers. However, scientific outputs are rarely pub-lished in isolation. Research Objects have been proposed as a frame-work to capture the relationships and context of all constituents ofan investigation. In this paper we present FAIROs, a framework forassessing the compliance of a Research Object (and its constituents)against the FAIR principles. FAIROs reuses existing FAIR validators forindividual resources and proposes i) two scoring methods for assess-ing the fairness of Research Objects, ii) an initial implementation ofthe scoring methods in the FAIROs framework, and iii) an explanation-based approach designed to visualize the obtained scores. We validateFAIROs against 165 Research Objects, and discuss the advantages andlimitations of different scoring systems.Keywords: FAIR assessment · Research object · Aggregation methods.1 IntroductionThe Findable, Accessible, Interoperable and Reusable principles (FAIR) in-troduce a set of best practices to share data, make data more reusable andsupport the reproducibility of results in research [22]. FAIR addresses us-ing persistent identifiers for resources, rich metadata to favour discovery,explicit licenses to understand usage terms and using well established vo-cabularies to facilitate interoperability.Although FAIR was originally proposed for datasets, additional initiativesare appearing to apply these principles to other research outputs, such as2 E. Gonzalez, A. Benitez, D. Garijosoftware [15] [16], ontologies [19], virtual research environments1 or digitalobjects [4] among others.Since research outputs are rarely produced in isolation, the scientificcommunity has proposed Research Objects [2] [20] to capture the contextaround a scientific investigation. Research Objects also provide the meansto pack all the resources within some research, easing its understandabil-ity and facilitating its dissemination. However, assessing the compliance ofa Research Object against the FAIR principles (i.e., their FAIRness) is chal-lenging, as Research Objects aggregate multiple resources which may beprompt to individual assessment.In this work we describe FAIROs, a framework for assessing the FAIRnessof a research investigation, modeled as Research Object. Our contributionsinclude i) an approach to integrate the FAIRness scores of all resources ina Research Object, ii) an implementation of our approach in an executabletool, and iii) a visualization of the scoring system for helping users under-stand how to improve the FAIRness of their resources.FAIROs integrates existing efforts developed to assess the FAIRness ofindividual datasets, software projects and ontologies. We have tested ourframework by calculating the FAIRness scores of over 160 Research Objectsavailable in public repositories, comparing two different aggregation met-rics. Based on our results, we discuss the advantages and disadvantages ofdifferent scoring methods for Research Object FAIRness. Our results show",
+        "publication_date": "2022-01-01",
+        "authors": "Esteban González, Alejandro Benítez, Daniel Garijo",
+        "file_name": "20250511235137.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/TPDL2022_gonzalez/PDFs/20250511235137.pdf",
+        "pdf_link": "https://dgarijo.com/papers/TPDL2022_gonzalez.pdf"
+    }
+]

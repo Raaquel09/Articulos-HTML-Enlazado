@@ -1,0 +1,5 @@
+2025-05-11 16:33:14,989:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:33:15,002:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/west-works14/processed_metadata.json
+2025-05-11 16:33:15,015:INFO:Successfully opened JSON
+2025-05-11 16:33:15,026:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/west-works14/url_search_output.json
+2025-05-11 16:33:15,036:INFO:Output saved to: ../Pruebas/SalidaRSEF1/west-works14/url_search_output.json

@@ -1,0 +1,169 @@
+[
+    {
+        "title": "Quality of Online Learning Participation in a Context of Crisis (Journal Pre-Proof)",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/trellis-ldp/trellis-extensions",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/solid/test-suite",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/solid/community-s",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/rubensworks/graphql-ld-comunica.js",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/opencitations/ramose",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/marfersel/LODI",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/Swirrl/cubiql",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/RDFLib/rdflib",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/KNowledgeOnWebScale/w",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://github.com/CLARIAH/grlc",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.4433203",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": null,
+        "arxiv": null,
+        "abstract": "ABSTRACTThe adoption of Knowledge Graphs (KGs) by public and private organizations to integratelish data has increased in recent years. Ontologies play a crucial role in providing the strKGs, but are usually disregarded when designing Application Programming Interfaces (APable browsing KGs in a developer-friendly manner. In this paper we provide a systematicthe state of the art on existing approaches to ease access to ontology-based KG data by adevelopers. We propose two comparison frameworks to understand specifications, technoltools responsible for providing APIs for KGs. Our results reveal several limitations on exisbased specifications, technologies and tools for KG consumption, which outline excitingchallenges including automatic API generation, API resource path prediction, ontology-bversioning, and API validation and testing.oductionledge Graphs (KGs) have become a crucial assetturing data and factual knowledge in private andganizations. Several prominent KGs have been gen-er the years to improve search capabilities, empoweranalytics, ease decision making, etc. [48]. Indus-have been created by companies like Google, Mi-acebook, eBay, or IBM tomake their services \"smar-add value to users [73]. Open KGs such as DBpe-cover a wide variety of domains, and crowdsourcedWikidata [100] are actively maintained by an in-al community of curators. Domain-specific KGsn used to open data by public administrations ofountries (e.g. national administrations: US [46],, and local administrations: Zaragoza in Spain [27],in Italy [16]); by libraries (e.g. by the Spanishitish [22], and French [89] National Libraries); byciences community (e.g., the Monarch initiative todata of genes, diseases, phenotypes, variants, ands across species [88], and DisGeNET [79] to de-ata about genes and variants associated to human); among others.ite their adoption, KGs are still challenging to con-application developers. On the one hand, devel-e a production-consumption challenge: there is aeen the ontology engineers who design a KG andication developers who want to consume its con-]. KGs are commonly organized by ontologies [91],e used to structure data without ambiguities, pro-red meaning and infer new knowledge. Ontologieslly developed following well defined methodologiesesponding authorspinoza@fi.upm.es (P. Espinoza-Arias); dgarijo@isi.edu (D.orcho@fi.upm.es (O. Corcho)D(s): 0000-0002-3938-2064 (P. Espinoza-Arias);0454-7145 (D. Garijo); 0000-0002-9260-0753 (O. Corcho)[15, 37, 56, 59], which identify use cases and comquestions that drive their design. However, ontologbecome complex, and the resources used in their d",
+        "publication_date": "2021-01-01",
+        "authors": "Jorge Chávez, Rosa Montaño, Rosa Barrera, Jaime Sánchez, Jaime Fauré",
+        "file_name": "20250512000324.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/jws_survey_2021/PDFs/20250512000324.pdf",
+        "pdf_link": "https://dgarijo.com/papers/jws_survey_2021.pdf"
+    }
+]

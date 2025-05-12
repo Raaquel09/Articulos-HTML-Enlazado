@@ -1,0 +1,5 @@
+2025-05-11 23:55:56,506:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:55:56,518:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/reproducibility_docker/processed_metadata.json
+2025-05-11 23:55:56,535:INFO:Successfully opened JSON
+2025-05-11 23:55:56,544:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/reproducibility_docker/url_search_output.json
+2025-05-11 23:55:56,563:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/reproducibility_docker/url_search_output.json

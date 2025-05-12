@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Artificial Intelligence Buzzword Explained: Scientific workflows",
+        "implementation_urls": [],
+        "doi": null,
+        "arxiv": null,
+        "abstract": "[29] D. Garijo and Y. Gil, “A New Approach for Publishing Workflows: Abstractions, Standards, and Linked Data,” in Proceedings of the 6th workshop on Workflows in support of large-scale science, Seattle, 2011, pp. 47–56. [30] K. Belhajjame et al., “Using a suite of ontologies for preserving workflow-centric Research Objects,” Web Semant. Sci. Serv. Agents World Wide Web, 2015. [31] T. Lebo et al., “The PROV ontology, W3C Recommendation,” WWW Consortium, Apr. 2013. [32] P. Missier, S. Dey, K. Belhajjame, V. Cuevas-Vicenttín, and B. Ludäscher, “D-PROV: Extending the PROV Provenance Model with Workflow Structure,” in Proceedings of the 5th USENIX Workshop on the Theory and Practice of Provenance, Lombard, Illinois, 2013, p. 9:1–9:7. [33] D. D. Roure, C. A. Goble, and R. Stevens, “The design and realisation of the myExperiment Virtual Research Environment for social sharing of workflows,” Future Gener. Comp Syst, vol. 25, no. 5, pp. 561–567, 2009. [34] P. Mates, E. Santos, J. Freire, and C. T. Silva, “CrowdLabs: Social Analysis and Visualization for the Sciences,” in 23rd International Conference on Scientific and Statistical Database Management (SSDBM), 2011, pp. 555–564. [35] K. Belhajjame et al., “A workflow PROV-corpus based on Taverna and Wings,” in Proceedings of the Joint EDBT/ICDT 2013 Workshops, Genoa, Italy, 2013, pp. 331–332. [36] F. Chirigati, D. Shasha, and J. Freire, “ReproZip: Using Provenance to Support Computational Reproducibility,” in Proceedings of the 5th USENIX Workshop on the Theory and Practice of Provenance, Lombard, Illinois, 2013, p. 1:1–1:4. [37] I. Santana-Pérez and M. Pérez-Hernández, “Towards Reproducibility in Scientific Workflows: An Infrastructure-Based Approach,” Sci. Program., vol. 2015, p. 11, 2015. [38] Qasha, Wawaa, Cala, Jacek, and Watson, Paul, “A Framework for Scientific Workflow Reproducibility in the Cloud,” in IEEE 12th International Conference on eScience. [39] Y. Gil et al., “Examining the Challenges of Scientific Workflows,” Computer, vol. 40, no. 12, pp. 24–32, Dec. 2007.  ",
+        "publication_date": null,
+        "authors": "",
+        "file_name": "20250512001721.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/aibuzzword2017/PDFs/20250512001721.pdf",
+        "pdf_link": "https://dgarijo.com/papers/aibuzzword2017.pdf"
+    }
+]

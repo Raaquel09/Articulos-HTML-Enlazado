@@ -1,0 +1,3 @@
+2025-05-11 23:49:02,794:INFO:PDF downloaded successfully from direct link
+2025-05-11 23:49:02,795:INFO:Success downloading the pdf file
+2025-05-11 23:49:03,264:WARNING:pdf_title was not able to extract the title will fallback to Tika

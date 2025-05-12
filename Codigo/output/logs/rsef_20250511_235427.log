@@ -1,0 +1,8 @@
+2025-05-11 23:54:27,160:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:54:27,168:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/EKAW2022_espinoza/processed_metadata.json
+2025-05-11 23:54:27,181:INFO:Successfully opened JSON
+2025-05-11 23:54:27,182:INFO:Analyzing directionality for 10.1007/978-3-031-17105-5_2
+2025-05-11 23:54:27,182:INFO:Checking bidirectional links
+2025-05-11 23:54:51,888:INFO:Checking unidirectional links
+2025-05-11 23:55:03,556:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/EKAW2022_espinoza/url_search_output.json
+2025-05-11 23:55:03,570:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/EKAW2022_espinoza/url_search_output.json

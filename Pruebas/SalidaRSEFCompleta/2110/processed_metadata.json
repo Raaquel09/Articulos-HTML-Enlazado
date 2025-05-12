@@ -1,0 +1,29 @@
+[
+    {
+        "title": "A Community Roadmap for Scientific Workflows Research and Development",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/SGCI/sgci-resource-inventory",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1109/works54523.2021.00016",
+        "arxiv": "2110.02168",
+        "abstract": "Abstract—The landscape of workflow systems for scientificapplications is notoriously convoluted with hundreds of seeminglyequivalent workflow systems, many isolated research claims, anda steep learning curve. To address some of these challenges andlay the groundwork for transforming workflows research anddevelopment, the WorkflowsRI and ExaWorks projects partneredto bring the international workflows community together. Thispaper reports on discussions and findings from two virtual“Workflows Community Summits” (January and April, 2021).The overarching goals of these workshops were to develop a viewof the state of the art, identify crucial research challenges in theworkflows community, articulate a vision for potential communityefforts, and discuss technical approaches for realizing this vision.To this end, participants identified six broad themes: FAIR com-putational workflows; AI workflows; exascale challenges; APIs,interoperability, reuse, and standards; training and education;and building a workflows community. We summarize discussionsand recommendations for each of these themes.Index Terms—Scientific workflows, community roadmap, datamanagement, AI workflows, exascale computing, interoperabilityI. INTRODUCTIONScientific workflow systems are used almost universallyacross scientific domains for solving complex and large-scale computing and data analysis problems, and have un-derpinned some of the most significant discoveries of thepast decades [1]. Many of these workflows have significantcomputational, storage, and communication demands, and thusmust execute on a wide range of large-scale platforms, fromlocal clusters over science or public clouds to upcomingexascale HPC platforms [2]. Managing these executions isoften a significant undertaking, requiring a sophisticated andversatile software infrastructure.Historically, many of these infrastructures for workflowexecution consisted of complex, integrated systems, developedin-house by workflow practitioners with strong dependencieson a range of legacy technologies—even including sets ofad-hoc scripts. Due to the increasing need to support work-flows, dedicated workflow systems were developed to provideabstractions for creating, executing, and adapting workflowsconveniently and efficiently while ensuring portability. Whilethese efforts are all worthwhile individually, there are nowhundreds of independent workflow systems [3]. These arecreated and used by thousands of researchers and developers,leading to a rapidly growing corpus of workflows researchpublications. The resulting workflow system technology land-scape is fragmented, which may present significant barriersfor future workflow users due to the tens of seemingly com-parable, yet usually mutually incompatible, systems that exist.In the current workflow research, there are conflicting theo-retical bases and abstractions for what constitutes a workflow",
+        "publication_date": "2021-11-01",
+        "authors": "Rafael Ferreira da Silva, Henri Casanova, Kyle Chard, İlkay Altıntaş, Rosa M. Badía, Bartosz Baliś, Tainã Coleman, Frederik Coppens, Frank Di Natale, Bjoern Enders, Thomas Fahringer, Rosa Filgueira, Grigori Fursin, Daniel Garijo, Carole Goble, Dorran Howell, Shantenu Jha, Daniel S. Katz, Daniel Laney, Ulf Leser, M. Malawski, Kshitij Mehta, Loïc Pottier, Jonathan Ozik, J. L. Peterson, Lavanya Ramakrishnan, Stian Soiland‐Reyes, Douglas Thain, Matthew Wolf",
+        "file_name": "20250512000235.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/2110/PDFs/20250512000235.pdf",
+        "pdf_link": "https://arxiv.org/pdf/2110.02168"
+    }
+]

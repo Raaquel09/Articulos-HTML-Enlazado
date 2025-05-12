@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Towards Continuous Scientific Data Analysis and Hypothesis Evolution",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/JohnLangford/vowpal_wabbit",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/aaai2017/PDFs/20250512001506.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "Available from https://github.com/JohnLangford/vowpal_wabbit, 2011."
+                    }
+                ]
+            },
+            {
+                "identifier": "http://doi.org/10.5281/zenodo.190374",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "bidir",
+                        "location": "ZENODO",
+                        "location_type": "TITLE",
+                        "source": "RSEF"
+                    }
+                ]
+            },
+            {
+                "identifier": "http://doi.org/10.5281/zenodo.180716",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "bidir",
+                        "location": "ZENODO",
+                        "location_type": "TITLE",
+                        "source": "RSEF"
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1609/aaai.v31i1.11157",
+        "abstract": "Abstract Scientific data is continuously generated throughout the world.  However, analyses of these data are typically per-formed exactly once and on a small fragment of recently generated data. Ideally, data analysis would be a continuous process that uses all the data available at the time, and would be automatically re-run and updated when new data appears. We present a framework for automated discovery from data repositories that tests user-provided hypotheses using expert-grade data analysis strategies, and reassesses hypotheses when more data becomes available. Novel con-tributions of this approach include a framework to trigger new analyses appropriate for the available data through lines of inquiry that support progressive hypothesis evolution, and a representation of hypothesis revisions with prove-nance records that can be used to inspect the results. We implemented our approach in the DISK framework, and evaluated it using two scenarios from cancer multi-omics: 1) data for new patients becomes available over time, 2) new types of data for the same patients are released. We show that in all scenarios DISK updates the confidence on the original hypotheses as it automatically analyzes new data.   Introduction   In many areas of science, sensors and instruments are con-tinuously collecting data.  Yet most research projects ana-lyze data at a particular point in time, and once articles are published they are rarely revisited to account for new data.  In some cases, this makes sense since more data may only be tangentially related, and thus may not be relevant to include in a joint analysis. However, in many cases the availability of additional data may significantly affect prior results, by confirming with additional evidence or invali-dating them. In addition, the new data may enable new types of analyses, leading to important revisions of prior findings or to entirely new findings.                                                    Copyright © 2017, Association for the Advancement of Artificial Intelligence (www.aaai.org). All rights reserved.   Our goal is to automatically and continuously analyze scientific data as it becomes available, so scientists can be alerted if their prior studies are affected or if new results are gleamed.  In prior work, we developed an approach to represent hypotheses and link them to relevant data to be analyzed, test them through lines of inquiry that capture expert-grade data analysis strategies, and aggregate the analysis results through meta-reasoning to combine the evidence gathered and generate revised hypotheses and confidence values [Gil et al 2016].  We implemented our approach in the DISK (Automated DIscovery of Scientific ",
+        "publication_date": "2017-02-12",
+        "authors": "Yolanda Gil, Daniel Garijo, Varun Ratnakar, Rajiv Mayani, Ravali Adusumilli, Hunter Boyce, Arunima Srivastava, Parag Mallick",
+        "file_name": "20250512001506.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/aaai2017/PDFs/20250512001506.pdf",
+        "pdf_link": "https://dgarijo.com/papers/aaai2017.pdf"
+    }
+]

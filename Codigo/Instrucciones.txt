@@ -17,33 +17,34 @@ Necesitamos instalar lo siguiente:
 	pdf2htmlEX:
 		https://github.com/pdf2htmlEX/pdf2htmlEX
 
-# Estructura:
-# Codigo
-#	RESEF.py
-#	pdf2html.py
-#	unir.py
-#	main.py
-#	paginaWeb.html
-# Pruebas
-#	BibTex
-#		conjuntoBIB.bib
-# 	carpeta_raiz (SalidaRSEF)
-#   		subcarpeta1 (carpetaBIB1)
-#       		subcarpeta2 (PDFs)
-#           			nombrepdf1.pdf
-#   		subcarpeta1 (carpetaBIB2)
-#       		subcarpeta2 (PDFs)
-#           			nombrepdf2.pdf
-#   		subcarpeta1 (carpetaBIB3)
-#       			subcarpeta2 (PDFs)
-#           			nombrepdf3.pdf
-# 	PaginaWeb
-# 		conjuntoJSON.json
-# 		paginaWeb.html
-# 		html
-#			nombrehtml1.html
-#			nombrehtml2.html
-#			nombrehtml2.html
+Estructura:
+
+	Codigo
+		RESEF.py
+		pdf2html.py
+		unir.py
+		main.py
+		paginaWeb.html
+	Pruebas
+		BibTex
+conjuntoBIB.bib
+		carpeta_raiz (SalidaRSEF)
+			subcarpeta1 (carpetaBIB1)
+				subcarpeta2 (PDFs)
+					nombrepdf1.pdf
+			subcarpeta1 (carpetaBIB2)
+				subcarpeta2 (PDFs)
+					nombrepdf2.pdf
+			subcarpeta1 (carpetaBIB3)
+				subcarpeta2 (PDFs)
+					nombrepdf3.pdf
+		PaginaWeb
+			conjuntoJSON.json
+			paginaWeb.html
+			html
+				nombrehtml1.html
+				nombrehtml2.html
+				nombrehtml2.html
 
 1 Tenemos el fichero bib (obligatorio)
 

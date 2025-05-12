@@ -1,0 +1,7 @@
+2025-05-12 00:26:47,068:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:26:47,078:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/psmFlow/processed_metadata.json
+2025-05-12 00:26:47,089:INFO:Successfully opened JSON
+2025-05-12 00:26:47,090:INFO:Analyzing directionality for 10.1109/wi.2018.00-93
+2025-05-12 00:26:47,090:INFO:No implementation URLs present in the paper object!
+2025-05-12 00:26:47,099:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/psmFlow/url_search_output.json
+2025-05-12 00:26:47,107:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/psmFlow/url_search_output.json

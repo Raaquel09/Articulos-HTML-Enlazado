@@ -1,0 +1,11 @@
+2025-05-11 12:10:37,008:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 12:10:37,020:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/tabitha_2024/processed_metadata.json
+2025-05-11 12:10:37,035:INFO:Successfully opened JSON
+2025-05-11 12:10:37,036:INFO:Analyzing directionality for 10.1007/978-3-031-65794-8_11
+2025-05-11 12:10:37,036:INFO:Checking bidirectional links
+2025-05-11 12:15:17,254:ERROR:ERROR: https://github.com/kuefmz/define_taxonomy SOMEF command timed out after 5 minutes
+2025-05-11 12:20:06,546:ERROR:ERROR: https://github.com/kuefmz/define_taxonomy SOMEF command timed out after 5 minutes
+2025-05-11 12:20:06,552:INFO:Issue while downloading the repository for 10.1007/978-3-031-65794-8_11
+2025-05-11 12:20:06,554:INFO:Checking unidirectional links
+2025-05-11 12:20:20,900:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/tabitha_2024/url_search_output.json
+2025-05-11 12:20:20,923:INFO:Output saved to: ../Pruebas/SalidaRSEF1/tabitha_2024/url_search_output.json

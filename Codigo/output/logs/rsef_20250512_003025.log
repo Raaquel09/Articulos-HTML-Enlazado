@@ -1,0 +1,7 @@
+2025-05-12 00:30:25,231:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:30:25,240:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/fair_wfs2019/processed_metadata.json
+2025-05-12 00:30:25,256:INFO:Successfully opened JSON
+2025-05-12 00:30:25,256:INFO:Analyzing directionality for 10.1162/dint_a_00033
+2025-05-12 00:30:25,257:INFO:No implementation URLs present in the paper object!
+2025-05-12 00:30:25,264:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/fair_wfs2019/url_search_output.json
+2025-05-12 00:30:25,272:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/fair_wfs2019/url_search_output.json

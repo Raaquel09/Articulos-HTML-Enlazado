@@ -1,0 +1,9 @@
+2025-05-11 11:57:53,463:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 11:57:53,473:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/s41597-025-04451-9/processed_metadata.json
+2025-05-11 11:57:53,493:INFO:Successfully opened JSON
+2025-05-11 11:57:53,493:INFO:Analyzing directionality for 10.1038/s41597-025-04451-9
+2025-05-11 11:57:53,493:INFO:Checking bidirectional links
+2025-05-11 12:00:58,225:INFO:Already created a file: ../Pruebas/SalidaRSEF1/s41597-025-04451-9/JSONs/crs4_deephealth-pipelines.json
+2025-05-11 12:01:15,372:INFO:Checking unidirectional links
+2025-05-11 12:01:35,442:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/s41597-025-04451-9/url_search_output.json
+2025-05-11 12:01:35,461:INFO:Output saved to: ../Pruebas/SalidaRSEF1/s41597-025-04451-9/url_search_output.json

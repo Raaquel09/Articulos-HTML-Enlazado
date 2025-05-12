@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Coming to Terms with FAIR Ontologies",
+        "implementation_urls": [
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.3707985",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.3557381",
+                "type": "zenodo",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-030-61244-3_18",
+        "arxiv": null,
+        "abstract": "Abstract. Ontologies are widely used nowadays for many different purposes andinmany different contexts.When used for research, ontologies should be treated asother research artefacts, such as data, software, methods, etc.; following the sameprinciples used tomake themfindable, accessible, interoperable and reusable (FAIR)to others. However, in comparison to the number of guides, indicators and recom-mendations available for making research data FAIR, not much attention has beenpaid so far on how to publish ontologies following the FAIR principles. This po-sition paper reviews the technical and social needs required to define a roadmapfor generating and publishing FAIR ontologies on the Web. We analyze four ini-tiatives for ontology publication, aligning them in a common framework for com-parison. The paper concludes by opening a discussion about existing, ongoingand required initiatives and instruments to facilitate FAIR ontology sharing onthe Web.Keywords: FAIR principles · Ontologies · Semantics.1 IntroductionSince its inception in 2016, the FAIR (Findable, Accessible, Interoperable, Reusable)data principles [35] have gained an increasing importance in the context of researchdata management, and are being adopted by a large number of private and public or-ganisations worldwide, including initiatives such as the European Open Science Cloud3(EOSC) or the Research Data alliance4 (RDA).Ontologies play a relevant role in some of the FAIR data principles, especially inrelation to providing support for data “interoperability“ and “reusability“. The need forontologies (also called vocabularies) is pointed out in the following principles: data andmetadata should (I2)5 use vocabularies that follow FAIR principles, (I1) use a formal,accessible, shared, and broadly applicable language for knowledge representation; (I3)3 https://www.eosc-portal.eu/4 https://www.rd-alliance.org/5 We point in parentheses to the principles numeration used in the original FAIR paper [35]2 Poveda-Villalón et al.include qualified references to other (meta)data, and (R1.3) meet domain-relevant com-munity standards. And ontologies are also relevant in terms of “findability”, (F2) re-quiring to describe data with rich metadata, and “accessibility”, (A1) metadata shouldbe retrievable from a unique identifier.The research community has already acknowledged the need for ontologies to fol-low the FAIR principles [7]. First, there is a clear movement towards expanding theapplication of the FAIR principles beyond research data, as described in the ongoingEOSC Interoperability Framework [8]. Since ontologies are often the result of researchactivities or fundamental components in many areas of research, the FAIR principlesshould be applied to them, independently of whether they are used to describe data ormetadata. Second, ontologies are already identified as a relevant artefact in the prin-ciples (even though the term vocabulary is used more generally and there is a generalpreference to talk about semantic artefacts, including thesauri, glossaries, shared UMLmodels, etc.). Therefore, we consider that it is critical for the community to discuss andanalyse how the FAIR principles should be applied to these artefacts.However, we do not start from scratch when it comes to making ontologies availableto others. Before the appearance and general acceptance of FAIR principles in research,many approaches had already focused on how to publish ontologies on the Web follow-ing Linked Data principles, ensuring the existence of permanent identifiers and makingthem available through standardised protocols like HTTP ([4, 18, 21]). Other approachesfocused on making ontologies findable by creating metadata schemas and ontologies to",
+        "publication_date": "2020-01-01",
+        "authors": "María Poveda‐Villalón, Paola Espinoza-Arias, Daniel Garijo, Óscar Corcho",
+        "file_name": "20250512002601.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/EKAW2020_Coming_to_Terms_with_FAIR_Ontologies/PDFs/20250512002601.pdf",
+        "pdf_link": "https://dgarijo.com/papers/EKAW2020_Coming_to_Terms_with_FAIR_Ontologies.pdf"
+    }
+]

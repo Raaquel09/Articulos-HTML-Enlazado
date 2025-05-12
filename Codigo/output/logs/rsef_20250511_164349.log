@@ -1,0 +1,9 @@
+2025-05-11 16:43:49,185:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:43:49,198:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/Camera_ready_ISWC__KGTK/processed_metadata.json
+2025-05-11 16:43:49,213:INFO:Successfully opened JSON
+2025-05-11 16:43:49,214:INFO:Analyzing directionality for 10.1007/978-3-030-62466-8_18
+2025-05-11 16:43:49,214:INFO:Checking bidirectional links
+2025-05-11 16:44:05,840:INFO:Already created a file: ../Pruebas/SalidaRSEF1/Camera_ready_ISWC__KGTK/JSONs/usc-isi-i2_kgtk.json
+2025-05-11 16:46:23,619:INFO:Checking unidirectional links
+2025-05-11 16:46:34,334:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/Camera_ready_ISWC__KGTK/url_search_output.json
+2025-05-11 16:46:34,352:INFO:Output saved to: ../Pruebas/SalidaRSEF1/Camera_ready_ISWC__KGTK/url_search_output.json

@@ -1,0 +1,8 @@
+2025-05-12 00:05:39,335:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:05:39,346:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/nine_best_2020/processed_metadata.json
+2025-05-12 00:05:39,359:INFO:Successfully opened JSON
+2025-05-12 00:05:39,359:INFO:Analyzing directionality for 2012.13117
+2025-05-12 00:05:39,360:INFO:Checking bidirectional links
+2025-05-12 00:06:19,395:INFO:Checking unidirectional links
+2025-05-12 00:06:25,526:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/nine_best_2020/url_search_output.json
+2025-05-12 00:06:25,542:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/nine_best_2020/url_search_output.json

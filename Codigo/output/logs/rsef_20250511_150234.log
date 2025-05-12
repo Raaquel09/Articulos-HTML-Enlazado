@@ -1,0 +1,9 @@
+2025-05-11 15:02:35,164:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 15:02:35,216:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/widoco-iswc2017/processed_metadata.json
+2025-05-11 15:02:35,277:INFO:Successfully opened JSON
+2025-05-11 15:02:35,279:INFO:Analyzing directionality for 10.1007/978-3-319-68204-4_9
+2025-05-11 15:02:35,280:INFO:Checking bidirectional links
+2025-05-11 15:03:44,449:INFO:Already created a file: ../Pruebas/SalidaRSEF1/widoco-iswc2017/JSONs/dgarijo_Widoco.json
+2025-05-11 15:03:44,519:INFO:Checking unidirectional links
+2025-05-11 15:04:06,750:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/widoco-iswc2017/url_search_output.json
+2025-05-11 15:04:06,837:INFO:Output saved to: ../Pruebas/SalidaRSEF1/widoco-iswc2017/url_search_output.json

@@ -1,0 +1,5 @@
+2025-05-11 12:29:10,653:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 12:29:10,665:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/KGC_ESWC_2023/processed_metadata.json
+2025-05-11 12:29:10,684:INFO:Successfully opened JSON
+2025-05-11 12:29:10,692:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/KGC_ESWC_2023/url_search_output.json
+2025-05-11 12:29:10,713:INFO:Output saved to: ../Pruebas/SalidaRSEF1/KGC_ESWC_2023/url_search_output.json

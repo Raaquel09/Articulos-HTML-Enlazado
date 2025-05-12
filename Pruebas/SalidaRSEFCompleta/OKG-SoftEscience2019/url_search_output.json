@@ -1,0 +1,27 @@
+[
+    {
+        "title": "OKG-Soft: An Open Knowledge Graph with Machine Readable Scientific Software Metadata",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/mintproject/MINT-ModelCatalogIngestionAPI",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/OKG-SoftEscience2019/PDFs/20250512003031.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "The latest version of the ontology is available and documented at https://w3id.org/okn/o/sd."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1109/escience.2019.00046",
+        "abstract": "Abstract—Scientific software is crucial for understanding, reusing and reproducing results in computational sciences. Software is often stored in code repositories, which may contain human readable instructions necessary to use it and set it up. However, a significant amount of time is usually required to understand how to invoke a software component, prepare data in the format it requires, and use it in combination with other software. In this paper we introduce OKG-Soft, an open knowledge graph that describes scientific software in a machine readable manner. OKG-Soft includes: 1) an ontology designed to describe software and the specific data formats it uses; 2) an approach to publish software metadata as an open knowledge graph, linked to other Web of Data objects; and 3) a framework to annotate, query, explore and curate scientific software metadata. OKG-Soft supports the FAIR principles of findability, accessibility, interoperability, and reuse for software. We demonstrate the benefits of OKG-Soft with two applications: a browser for understanding scientific models in the environmental and social sciences, and a portal to combine climate, hydrology, agriculture, and economic software models.  Keywords—software metadata, software registries, FAIR, knowledge graphs, software composition, software interoperability I. INTRODUCTION  Software is a key product of scientific research, as it can be used to understand and reproduce the findings reported in a publication (e.g., by rerunning a hydrology model, a genome sequence analysis or testing a trained machine learning model). The importance of software is increasingly recognized [1], with publishers and community initiatives encouraging researchers to make their software openly available to others.1 Scientific software created by scientists should be appropriately documented and curated to facilitate reuse by other researchers. Code repositories such as GitHub 2  or BitBucket3 provide the means to store and version code, while software container repositories such as DockerHub4 capture the execution environment required to run software. However, there is usually a lack of important information that makes software difficult to discover and reuse, such as descriptions of the main features of the software, unambiguous usage instructions, incomplete sample data, etc. Moreover, when                                                  1 https://paperswithcode.com 2 github.com/ 3 https://bitbucket.org/ this kind of information is present, it is not machine readable, so it is hard to develop tools to facilitate those tasks for users. A major barrier to reuse is the time and effort required to understand how to run scientific software. Researchers need to understand how to prepare data for software, how to invoke ",
+        "publication_date": "2019-09-01",
+        "authors": "Daniel Garijo, Maximiliano Osorio, Deborah Khider, Varun Ratnakar, Yolanda Gil",
+        "file_name": "20250512003031.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/OKG-SoftEscience2019/PDFs/20250512003031.pdf",
+        "pdf_link": "https://dgarijo.com/papers/OKG-SoftEscience2019.pdf"
+    }
+]

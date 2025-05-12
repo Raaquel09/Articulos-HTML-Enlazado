@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Assessing the Overlap of Science Knowledge Graphs: A Quantitative Analysis",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/kuefmz/define_taxonomy",
+                "type": "git",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/tabitha_2024/PDFs/20250511233055.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "Correlation of Similarity and Agreement The scripts [2] 12 used to carry out our methodology and analysis are available online under the MIT license."
+                    }
+                ]
+            },
+            {
+                "identifier": "https://zenodo.org/records/10974512",
+                "type": "zenodo",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "bidir",
+                        "location": "ZENODO",
+                        "location_type": "TITLE",
+                        "source": "RSEF"
+                    }
+                ]
+            },
+            {
+                "identifier": "https://doi.org/10.5281/zenodo.10974512",
+                "type": "zenodo",
+                "paper_frequency": 2,
+                "extraction_methods": [
+                    {
+                        "type": "bidir",
+                        "location": "ZENODO",
+                        "location_type": "TITLE",
+                        "source": "RSEF"
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-031-65794-8_11",
+        "abstract": "Abstract. Science Knowledge Graphs (SKGs) have emerged as a meansto represent and capture research outputs (papers, datasets, software,etc.) and their relationships in a machine-readable manner. However,different SKGs use different taxonomies, making it challenging to under-stand their overlaps, gaps and differences. In this paper, we propose aquantitative bottom-up analysis to assess the overlap between two SKGs,based on the type annotations of their instances. We implement ourmethodology by assessing the category overlap of 100,000 publicationspresent both in OpenAlex and OpenAIRE. As a result, our approach pro-duces an alignment of 71 categories and discusses the level of agreementbetween both KGs when annotating research artefacts.Keywords: Scientific Knowledge Graph · Knowledge Graph · Taxon-omy · Alignment1 IntroductionAs the volume of scientific literature increases, the need for scalable and effi-cient systems to navigate this extensive information becomes crucial. ScienceKnowledge Graphs (SKGs) [11] have emerged as a key tool for representing re-search entities (publications, people, organizations, datasets, software, etc.) theirrelationships and metadata in a machine-readable manner.SKGs such as OpenAIRE 1 [23,24,19,18] and OpenAlex 2 [21] contain mil-lions of entities describing publications and research outputs. One of the mainchallenges when using SKGs is identifying and resolving overlaps in categoriza-tion, which is critical for querying them consistently and reliably. This challengeis complex due to the diversity and volume of data within these KGs, requiringadvanced methodologies for effective detection and resolution of overlaps. Un-derstanding these overlaps and disagreements is essential for insights into thestructure of scientific knowledge, highlighting patterns that are not immediatelyapparent due to data scale and diversity.This paper proposes a quantitative bottom-up methodology to assess theoverlap of SKGs categories, based on the annotations made on their instances.1 https://www.openaire.eu/2 https://openalex.org/https://www.openaire.eu/https://openalex.org/2 J. Tabita Ciuciu-Kiss and D. GarijoMore specifically we aim to explore the overlap of the taxonomies used in scien-tific literature [22]. Our contributions include:1. A novel methodology designed to explore the overlap between SKGs.2. An implementation of the methodology, based on two SKGs to validate itseffectiveness, resulting in 71 new aligned categories within these graphs.3. An initial exploration study of the intersection of two SKGs, based on100,000 papers that are jointly described in both of them.As a proof of concept, we have applied our methodology to a subset of Ope-nAlex and OpenAIRE SKGs, in the AI domain. We chose OpenAlex for its ex-tensive global database of academic research, and OpenAIRE for its Europeanfocus and its integration from heterogeneous data sources. This combinationoffers a comprehensive view of academic communication, providing a compre-hensive dataset for our methodology.The remainder of the paper is structured as follows. Section 2 describes ourmethodology, while Section 3 explains how we implemented our methodology",
+        "publication_date": "2024-01-01",
+        "authors": "Jenifer Tabita Ciuciu-Kiss, Daniel Garijo",
+        "file_name": "20250511233055.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/tabitha_2024/PDFs/20250511233055.pdf",
+        "pdf_link": "https://dgarijo.com/papers/tabitha_2024.pdf"
+    }
+]

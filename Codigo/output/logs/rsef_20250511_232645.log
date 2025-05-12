@@ -1,0 +1,5 @@
+2025-05-11 23:26:46,074:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:26:46,086:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/poveda_et_al_24/processed_metadata.json
+2025-05-11 23:26:46,101:INFO:Successfully opened JSON
+2025-05-11 23:26:46,110:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/poveda_et_al_24/url_search_output.json
+2025-05-11 23:26:46,128:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/poveda_et_al_24/url_search_output.json

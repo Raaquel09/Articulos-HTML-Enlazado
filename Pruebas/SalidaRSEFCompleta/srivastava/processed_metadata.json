@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Semantic workflows for benchmark challenges: Enhancing comparability, reusability and reproducibility",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/arunima2/Supplementary_PSB_2019",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "regex",
+                        "location": "",
+                        "location_type": "",
+                        "source": "",
+                        "source_paragraph": ""
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1142/9789813279827_0019",
+        "arxiv": null,
+        "abstract": "altering results. Different challenge entries may be readily compared through the use of abstract workflows, which also facilitate reuse. WINGS is housed on a cloud based setup, which stores data, dependencies and workflows for easy sharing and utility.  It also has the ability to scale workflow executions using distributed computing through the Pegasus workflow execution system. We demonstrate the application of this architecture to the DREAM proteogenomic challenge.   Keywords: Workflows; Semantic Workflows; DREAM Challenges; Proteogenomics; Benchmarking; Big Data 1.  Introduction The volume of experimental data being generated in the field of experimental biology is growing at a rapid pace in both size and variety1,2. With the advent of increasingly diverse data types, many of which are high throughput, the bioinformatics community is introducing sophisticated computational approaches for data analysis3,4.   To compare different approaches, community-wide competitive benchmark challenges have gained popularity as an unbiased method to better understand the variety of pipelines proposed by different groups.  Popular challenges include the Dialogue for Reverse Engineering Assessments and Methods (DREAM)5, Critical Assessment of Structure Prediction (CASP) protein structure prediction6 and The Association of Biomolecular Resource Facilities’ (ABRF) Proteome Informatics Research Group’s (iPRG) detection and prediction challenges7. These challenges give competitors the opportunity to test (in a blind and unbiased manner) their approach against others in the field, and have been instrumental in advancing diverse areas from protein structure prediction8 to variant calling9 to analysis of pathology data10. Unfortunately, evaluations in these competitions have traditionally been limited to metrics that evaluate solely based on scores.  Comparisons of the methods that gave rise to those results are often left to manual interpretation.  When the difference between a winner and an extremely poor performer may come down to a handful of parameters in otherwise identical workflows, the lack of transparency in methods is a huge missed opportunity for the bioinformatics community. In addition, winning methods are rarely shared with the broader community, as it is cumbersome to make winning methods accessible beyond the competition framework. Thus, while these Pacific Symposium on Biocomputing 2019    210 challenges provide a forum for bioinformatics researchers to independently evaluate the performance of their approaches against others, the current execution environment for challenges does not facilitate deep comparison and sharing of approaches.   Consequently, there is a critical need to reconsider the infrastructure used for executing benchmark challenges.  Here we examine the potential benefits of conducting benchmark challenges within a semantic workflow environment.  Workflow environments, such as Galaxy11 and GenePattern12, would enable a challenge to examine not just the final results, but also all the steps of a method.  This could include all dependencies, relevant data, and workflow components.  By having challengers enter their submissions as workflows, which are executed on challenge data in the cloud, it becomes possible to more deeply perform a meta-analysis of the entries. In addition, submissions could be easily reused and shared by members of the broader scientific community.  This work describes our effort to date using the WINGS13 semantic workflow system to submit entries to the DREAM proteogenomic challenge. While WINGS is an established (ready-to-download for server) workflow system14, employing it as a submission and storing protocol for data analysis challenges is a novel use of this framework. In addition to the advantages typical of workflow systems, WINGS has additional features due to its use of semantic representations and ",
+        "publication_date": "2018-11-01",
+        "authors": "Arunima Srivastava, Ravali Adusumilli, Hunter Boyce, Daniel Garijo, Varun Ratnakar, Rajiv Mayani, Thomas Yu, Raghu Machiraju, Yolanda Gil, Parag Mallick",
+        "file_name": "20250512003505.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/srivastava/PDFs/20250512003505.pdf",
+        "pdf_link": "http://psb.stanford.edu/psb-online/proceedings/psb19/srivastava.pdf"
+    }
+]

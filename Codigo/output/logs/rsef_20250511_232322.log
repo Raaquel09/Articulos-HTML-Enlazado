@@ -1,0 +1,7 @@
+2025-05-11 23:23:22,684:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 23:23:22,697:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/motifs2012/processed_metadata.json
+2025-05-11 23:23:22,709:INFO:Successfully opened JSON
+2025-05-11 23:23:22,709:INFO:Analyzing directionality for 10.1016/j.future.2013.09.018
+2025-05-11 23:23:22,710:INFO:No implementation URLs present in the paper object!
+2025-05-11 23:23:22,719:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/motifs2012/url_search_output.json
+2025-05-11 23:23:22,728:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/motifs2012/url_search_output.json

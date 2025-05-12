@@ -1,0 +1,9 @@
+2025-05-12 00:20:09,178:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:20:09,188:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/OBA__Ontology_Based_APIs/processed_metadata.json
+2025-05-12 00:20:09,202:INFO:Successfully opened JSON
+2025-05-12 00:20:09,203:INFO:Analyzing directionality for 10.1007/978-3-030-62466-8_4
+2025-05-12 00:20:09,203:INFO:Checking bidirectional links
+2025-05-12 00:22:27,380:INFO:Already created a file: ../Pruebas/SalidaRSEFCompleta/OBA__Ontology_Based_APIs/JSONs/KnowledgeCaptureAndDiscovery_OBA.json
+2025-05-12 00:22:27,386:INFO:Checking unidirectional links
+2025-05-12 00:22:37,807:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/OBA__Ontology_Based_APIs/url_search_output.json
+2025-05-12 00:22:37,830:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/OBA__Ontology_Based_APIs/url_search_output.json

@@ -1,0 +1,8 @@
+2025-05-12 00:17:41,884:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-12 00:17:41,894:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/dagstuhl_2017/processed_metadata.json
+2025-05-12 00:17:41,908:INFO:Successfully opened JSON
+2025-05-12 00:17:41,908:INFO:Analyzing directionality for 10.4230/dagman.6.1.1
+2025-05-12 00:17:41,908:INFO:Checking bidirectional links
+2025-05-12 00:18:20,096:INFO:Checking unidirectional links
+2025-05-12 00:18:36,703:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEFCompleta/dagstuhl_2017/url_search_output.json
+2025-05-12 00:18:36,721:INFO:Output saved to: ../Pruebas/SalidaRSEFCompleta/dagstuhl_2017/url_search_output.json

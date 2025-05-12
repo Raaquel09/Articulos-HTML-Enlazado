@@ -1,0 +1,5 @@
+2025-05-11 16:27:27,720:INFO:Processed 0, Total Processed: 1 Papers
+2025-05-11 16:27:27,732:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/AutoML2018/processed_metadata.json
+2025-05-11 16:27:27,746:INFO:Successfully opened JSON
+2025-05-11 16:27:27,756:INFO:Data successfully appended to file: ../Pruebas/SalidaRSEF1/AutoML2018/url_search_output.json
+2025-05-11 16:27:27,775:INFO:Output saved to: ../Pruebas/SalidaRSEF1/AutoML2018/url_search_output.json

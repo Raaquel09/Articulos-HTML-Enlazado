@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Creating and Querying Personalized Versions of Wikidata on a Laptop",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/usc-isi-i2/kgtk",
+                "type": "git",
+                "paper_frequency": 1,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFCompleta/paper-4/PDFs/20250511235616.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "Type: Research paper Code repository: https://github.com/usc-isi-i2/kgtk/Keywords: Wikidata · Knowledge Graphs · KGTK · Kypher · Cypher 1 Introduction Modern Knowledge Graphs (KGs) are increasingly focused on improving their coverage of instances and statements and enhancing their expressivity in order to support application needs such as question answering and entity linking."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.48550/arxiv.2108.07119",
+        "abstract": "Abstract. Application developers today have three choices for exploit-ing the knowledge present in Wikidata: they can download the Wikidatadumps in JSON or RDF format, they can use the Wikidata API to getdata about individual entities, or they can use the Wikidata SPARQLendpoint. None of these methods can support complex, yet common,query use cases, such as retrieval of large amounts of data or aggregationsover large fractions of Wikidata. This paper introduces KGTK Kypher, aquery language and processor that allows users to create personalizedvariants of Wikidata on a laptop. We present several use cases that il-lustrate the types of analyses that Kypher enables users to run on thefull Wikidata KG on a laptop, combining data from external resourcessuch as DBpedia. The Kypher queries for these use cases run much fasteron a laptop than the equivalent SPARQL queries on a Wikidata clonerunning on a powerful server with 24h time-out limits.Type: Research paperCode repository: https://github.com/usc-isi-i2/kgtk/Keywords: Wikidata · Knowledge Graphs · KGTK · Kypher · Cypher1 IntroductionModern Knowledge Graphs (KGs) are increasingly focused on improving theircoverage of instances and statements and enhancing their expressivity in orderto support application needs such as question answering and entity linking. As aresult, Wikidata [9], a popular and representative KG, contains nearly 95 millionentities described with over 1.3 billion statements.1 Wikidata is also highly ex-pressive, using a reification model where each statement includes qualifiers (e.g.,to indicate temporal validity) and references (which provide the source(s) fromwhich the statement comes from).Copyright © 2021 for this paper by its authors. Use permitted under CreativeCommons License Attribution 4.0 International (CC BY 4.0).1 https://grafana.wikimedia.org/d/000000175/wikidata-datamodel-statements2 Chalupsky et. al.Application developers today have three choices for exploiting the knowledgepresent in Wikidata. They can download the Wikidata dumps in JSON or RDF[10] format, they can use the Wikidata API to get data about individual entities,or they can use the Wikidata SPARQL [6] endpoint for more elaborate andcomplex queries.2 The public Wikidata SPARQL endpoint restricts queries to 5minutes, returning an error when a query exceeds (or plans to exceed) that time.To mitigate the time-limit restriction, developers can load the massive WikidataRDF dump on their own servers, a relatively complex process that requires alarge server and several days.This paper introduces Kypher, the query language and processor of theKGTK Knowledge Graph Toolkit [3], which allows creating personalized vari-ants of Wikidata on a laptop, and enables running analytic queries faster than aWikidata SPARQL endpoint. Because Kypher uses the KGTK representation,it is not restricted to Wikidata, and can be used to query RDF KGs such asDBpedia [1]. The key advantages of Kypher over existing tooling are:1. Ability to extract large amounts of data from Wikidata.2. Ability to execute queries that retrieve large portions of the full Wikidata.3. Ability to build personalized versions of Wikidata, and extending it withother datasets for specific use cases.4. Easy installation as there are no databases to set up or administer.",
+        "publication_date": "2021-01-01",
+        "authors": "Hans Chalupsky, Pedro Szekely, Filip Ilievski, Daniel Garijo, Kartik Shenoy",
+        "file_name": "20250511235616.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/paper-4/PDFs/20250511235616.pdf",
+        "pdf_link": "http://ceur-ws.org/Vol-2982/paper-4.pdf"
+    }
+]

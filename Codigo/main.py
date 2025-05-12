@@ -4,6 +4,13 @@ import subprocess
 import os
 
 def main():
+
+    with open("salida.txt", "w") as f:
+        def log(msg):
+            print(msg)
+            f.write(msg + "\n")
+            f.flush()
+
     if len(sys.argv) != 5:
         print("Uso: python main.py archivo.bib carpetaSalidaRSEF carpetaSalidaHTMLs carpetaSalidaConjuntoJSON+CodigoPaginaWeb")
         print("Se ejecuta desde la carpeta Codigo")
@@ -27,7 +34,7 @@ def main():
 
     # Comando 3: python unirTodos.py conjuntoBIB.bib SalidaRSEF PaginaWeb
     print("Ejemplo: python unir.py conjuntoBIB.bib SalidaRSEF PaginaWeb")
-    print(f"Ejecutando: unir.py {carpeta1} {carpeta3}")
+    print(f"Ejecutando: unir.py {archivo_bib} {carpeta1} {carpeta3}")
     subprocess.run(["python", "unir.py", archivo_bib, carpeta1, carpeta3], check=True)
 
 if __name__ == "__main__":

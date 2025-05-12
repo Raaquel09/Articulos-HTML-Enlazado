@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Improving Publication and Reproducibility of Computational Experiments through Workflow Abstractions.",
+        "implementation_urls": [],
+        "abstract": "Experiments through Workflow Abstractions  Yolanda Gil Information Sciences Institute University of Southern California USA gil@isi.edu Daniel Garijo Information Sciences Institute University of Southern California USA dgarijo@isi.edu Margaret Knoblock Information Sciences Institute University of Southern California USA mrk022@bucknell.edu Alyssa Deng Information Sciences Institute University of Southern California USA shipingd@andrew.cmu.edu  Ravali Adusumilli School of Medicine Stanford University USA ravali@stanford.edu Varun Ratnakar Information Sciences Institute University of Southern California USA varunr@isi.edu    Parag Mallick School of Medicine Stanford University USA paragm@stanford.edu     ABSTRACT The current practice of publishing articles solely containing textual descriptions of methods is error prone and incomplete. Even when a reproducible workflow or notebook is linked to an article, the text of the article is not well integrated with those computational components, and the workflow and notebook are focused mostly on implementation details that are disconnected ",
+        "publication_date": "2017-01-01",
+        "authors": "Yolanda Gil, Daniel Garijo, Margaret Knoblock, Alyssa Deng, Ravali Adusumilli, Varun Ratnakar, Parag Mallick",
+        "file_name": "20250512000810.pdf",
+        "file_path": "../Pruebas/SalidaRSEFCompleta/gil_sciknow17/PDFs/20250512000810.pdf",
+        "pdf_link": "https://dgarijo.com/papers/gil_sciknow17.pdf"
+    }
+]

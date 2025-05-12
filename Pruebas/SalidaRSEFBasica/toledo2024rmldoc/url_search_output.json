@@ -1,0 +1,27 @@
+[
+    {
+        "title": "RMLdoc: Documenting Mapping Rules for Knowledge Graph Construction",
+        "implementation_urls": [
+            {
+                "identifier": "https://github.com/oeg-upm/rmldoc",
+                "type": "git",
+                "paper_frequency": 4,
+                "extraction_methods": [
+                    {
+                        "type": "unidir",
+                        "location": "../Pruebas/SalidaRSEFBasica/toledo2024rmldoc/PDFs/20250511231007.pdf",
+                        "location_type": "PAPER",
+                        "source_paragraph": "Code repository: https://github.com/oeg-upm/rmldoc/Demo: https://w3id.org/rmldoc/example Keywords: Documentation · Knowledge Graph Construction · RML."
+                    }
+                ]
+            }
+        ],
+        "doi": "10.1007/978-3-031-78952-6_51",
+        "abstract": "Abstract. In this demo we present RMLdoc, a Python package de-signed to generate documentation for RML mappings when constructingknowledge graphs from heterogeneous sources. Given an input mappingfile written in R2RML, RML, or YARRRML, RMLdoc will generate adetailed Markdown documentation explaining each mapping with corre-sponding diagrams, in a human readable manner. Thanks to RMLdoc,we aim to shed light in the knowledge graph construction process, makingmappings easier to maintain and understand by knowledge engineers.Code repository: https://github.com/oeg-upm/rmldoc/Demo: https://w3id.org/rmldoc/exampleKeywords: Documentation · Knowledge Graph Construction · RML.1 IntroductionKnowledge Graphs (KGs) are commonly constructed by transforming a set ofheterogeneous data sources (e.g., CSV, JSON files) into RDF graphs. Thesetransformations are performed by relating all input sources with the target on-tology terms, and can be described using declarative mapping languages such asthe W3C recommendation R2RML3 or its widely adopted extension RML [7]. In-stitutions such as the European Railway Agency4 or the European Commission(e.g., in the EU Public Procurement Data Space5) describe their transformationsusing these languages in some of their projects.Knowledge engineers are usually responsible for developing the mapping rulesneeded to construct KGs. In many cases, these engineers rely on graphical inter-faces (e.g, RMLEditor [5]) and human-friendly serializations like YARRRML [4]or Mapeathor [6] to aid them in the creation of mapping rules. However, themapping documents resultant from these efforts are, in many cases, complex andhard to interpret, which reduces their reusability by other engineers. Further-more, there is a lack of tools to generate a comprehensive and human-readable3 https://www.w3.org/TR/r2rml/4 https://data-interop.era.europa.eu/5 https://europa.eu/!qx9WxQhttps://orcid.org/0000-0002-2924-7272https://orcid.org/0000-0001-5375-8024https://orcid.org/0000-0003-3236-2789https://orcid.org/0000-0003-0454-7145https://github.com/oeg-upm/rmldoc/https://w3id.org/rmldoc/examplehttps://www.w3.org/TR/r2rml/https://data-interop.era.europa.eu/https://europa.eu/!qx9WxQ2 Toledo et al.documentation of mapping rules. This situation delegates mappings as second-class resources in the KG development process, without documentation (scat-tered comments in the mapping document at most) or essential metadata (e.g.,version, creators, license).In this paper, we present RMLdoc [8],6 an open source Python package de-signed to create a human-readable documentation of the mapping rules usedto construct a Knowledge Graph. RMLdoc supports mapping rules describedin R2RML, RML, and YARRRML, helping practitioners better understand therelationships between the original data sources and the ontology terms. To thebest of our knowledge, this is the first approach that proposes the generation of",
+        "publication_date": "2025-01-01",
+        "authors": "Jhon Toledo, Ana Iglesias-Molina, David Chaves-Fraga, Daniel Garijo",
+        "file_name": "20250511231007.pdf",
+        "file_path": "../Pruebas/SalidaRSEFBasica/toledo2024rmldoc/PDFs/20250511231007.pdf",
+        "pdf_link": "https://dgarijo.com/papers/toledo2024rmldoc.pdf"
+    }
+]
