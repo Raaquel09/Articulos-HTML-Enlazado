@@ -14,19 +14,19 @@ Para que este proyecto funcione hay que instalarse lo siguiente:
 
 1. **Entorno Python**:
 
- -  Un entorno de python para ejecutar los scripts y comprobar que funciona.
+ Un entorno de python para ejecutar los scripts y comprobar que funciona.
 
 2. **Las librerías correspondientes**:
 
-- bibtexparser
+ bibtexparser
 
 3. **Instalar RSEF**:
 
-- https://github.com/SoftwareUnderstanding/RSEF 
+ https://github.com/SoftwareUnderstanding/RSEF 
 
 4. **Ejecutar pdf2htmlEX**:
 
-- https://github.com/pdf2htmlEX/pdf2htmlEX
+ https://github.com/pdf2htmlEX/pdf2htmlEX
 
 
 ## Estructura:
@@ -77,13 +77,14 @@ Hay que tener en cuenta que para que funcione correctamente esta url deberia ser
 El script RESEF.py necesita dos argumentos de entrada:
 
  1 Ruta al fichero.bib
+ 
  2 Carpeta donde se va a guardar la salida de RSEF (en este caso si no existe se crea)
  
 	python RSEF.py <archivo.bib> <carpeta_salida>
 	
-En los ejemplos vamos a ejecutar los siguientes comandos:
+- En los ejemplos vamos a ejecutar los siguientes comandos:
 
-- Si lo ejecutamos desde la carpeta Codigo:
+Si lo ejecutamos desde la carpeta Codigo:
 	
 	python RSEF.py ../Pruebas/BibTex/conjuntoBIB.bib ../Pruebas/SalidaRSEFBasica
 		
@@ -97,13 +98,14 @@ Convertimos el pdf en html y lo copiamos en la carpeta de html, ahi van a estar 
 El script pdf2html.py necesita dos argumentos de entrada:
 
  1 Ruta de la carpeta raiz 
+ 
  2 Ruta de la carpeta de salida para los html
  
 	python pdf2html.py <carpeta_raiz> <carpeta_salida>
 	
-En los ejemplos vamos a ejecutar los siguientes comandos:
+- En los ejemplos vamos a ejecutar los siguientes comandos:
 
-- Si lo ejecutamos desde la carpeta Codigo:
+Si lo ejecutamos desde la carpeta Codigo:
 	
 	python pdf2html.py ../Pruebas/SalidaRSEFBasica ../Pruebas/PaginaWebBasica/html
 		
@@ -118,14 +120,17 @@ Campo "file_html" con una futa relativa al html creado por pdf2html
 El script unir.py necesita tres argumentos de entrada:
 
  1 Ruta el bib para coger la informacion de la entrada correspondiente
+ 
  2 Ruta de la carpeta raiz 
+ 
  3 Ruta de la carpeta de salida donde se va a guardar el fichero json completo
+ 
 
 	python unir.py <ruta bib> <carpeta_raiz> <carpeta_salida>
 	
-En los ejemplos vamos a ejecutar los siguientes comandos:
+- En los ejemplos vamos a ejecutar los siguientes comandos:
 
-- Si lo ejecutamos desde la carpeta Codigo:
+Si lo ejecutamos desde la carpeta Codigo:
 
 	python unir.py ../Pruebas/BibTex/conjuntoBIB.bib ../Pruebas/SalidaRSEFBasica ../Pruebas/PaginaWebBasica
 		
@@ -136,15 +141,19 @@ En los ejemplos vamos a ejecutar los siguientes comandos:
 El script unir.py necesita cuatro argumentos de entrada:
 
  1 Ruta del bib 
+ 
  2 Ruta de la carpeta raiz 
+ 
  3 Ruta de la carpeta de salida para los html
+ 
  4 Ruta de la carpeta de salida donde se va a guardar el fichero json completo
+ 
 
-		python main.py <archivo.bib> <carpetaSalidaRSEF> <carpetaSalidaHTMLs> <carpetaSalidaConjuntoJSON+CodigoPaginaWeb>
+	python main.py <archivo.bib> <carpetaSalidaRSEF> <carpetaSalidaHTMLs> <carpetaSalidaConjuntoJSON+CodigoPaginaWeb>
 
-En los ejemplos vamos a ejecutar los siguientes comandos:
+- En los ejemplos vamos a ejecutar los siguientes comandos:
 
-- Si lo ejecutamos desde la carpeta Codigo:
+Si lo ejecutamos desde la carpeta Codigo:
 	
 	python main.py ../Pruebas/BibTex/conjuntoBIB.bib ../Pruebas/SalidaRSEFBasica ../Pruebas/PaginaWebBasica/html ../Pruebas/PaginaWebBasica
 		
