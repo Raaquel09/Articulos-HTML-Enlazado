@@ -75,7 +75,7 @@ Para que este proyecto funcione hay que instalarse lo siguiente:
 
 ### 1 Tenemos el fichero bib (obligatorio)
 
-Ejecutamos RSEF con el campo "url" de cada una de las entradas del bib. Para que funcione correctamente tiene que apuntar directamente a un pdf.
+Ejecutamos RSEF con el campo "url" de cada una de las entradas del bib.
 
 Hay que tener en cuenta que para que funcione correctamente esta url deberia ser directa a un pdf.
 
