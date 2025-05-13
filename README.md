@@ -145,7 +145,7 @@ En los ejemplos vamos a ejecutar los siguientes comandos:
 	
 ### 4 Tenemos un main que ejecuta todos los scripts anteriores
 
-El script unir.py necesita cuatro argumentos de entrada:
+El script main.py necesita cuatro argumentos de entrada:
 
  1 Ruta del bib 
  
