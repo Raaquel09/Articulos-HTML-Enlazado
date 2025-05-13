@@ -1,0 +1,11 @@
+site_name: Conversión de Artículos en HTML Enlazado
+nav:
+  - Home: index.md
+  - Rationale: rationale.md
+  - Scripts:
+    - RSEF.md
+    - pdf2html.md
+    - unir.md
+    - main.md
+theme:
+  name: readthedocs
