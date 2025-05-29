@@ -7,11 +7,11 @@
 
 El objetivo de este proyecto es transformar la bibliografía de un investigador en una serie de páginas enlazadas para que sea mas sencillo de consultar y más accesible para aquellos que necesiten consultarlo.
 
-El repositorio tiene activo GitHub Pages (https://raaquel09.github.io/Articulos-HTML-Enlazado/) 
+El repositorio tiene activo GitHub Pages (https://oeg-upm.github.io/Articulos-HTML-Enlazado/) 
 
 Y el ejemplo completo se puede ver desplegado en la siguiente url:
 
-https://raaquel09.github.io/Articulos-HTML-Enlazado/Pruebas/PaginaWebCompleta/paginaWeb.html#publications
+https://oeg-upm.github.io/Articulos-HTML-Enlazado/Pruebas/PaginaWebCompleta/paginaWeb.html#publications
 
 ## Requisitos
 
@@ -165,6 +165,6 @@ En los ejemplos vamos a ejecutar los siguientes comandos:
 
 	python main.py ../Pruebas/BibTex/garijo.bib ../Pruebas/SalidaRSEFCompleta ../Pruebas/PaginaWebCompleta/html ../Pruebas/PaginaWebCompleta
 
-**Página web:** https://raaquel09.github.io/Articulos-HTML-Enlazado/Pruebas/PaginaWebBasica/paginaWeb.html
+**Página web:** https://oeg-upm.github.io/Articulos-HTML-Enlazado/Pruebas/PaginaWebBasica/paginaWeb.html
 
- **Página web:** https://raaquel09.github.io/Articulos-HTML-Enlazado/Pruebas/PaginaWebCompleta/paginaWeb.html
+ **Página web:** https://oeg-upm.github.io/Articulos-HTML-Enlazado/Pruebas/PaginaWebCompleta/paginaWeb.html
